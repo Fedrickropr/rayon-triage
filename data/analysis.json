@@ -1,0 +1,4279 @@
+[
+  {
+    "full_name": "denoland/deno",
+    "stargazers_count": 106604,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        31
+      ],
+      [
+        "unzip",
+        22
+      ]
+    ],
+    "unsafe_in_rayon_files": 8
+  },
+  {
+    "full_name": "astral-sh/uv",
+    "stargazers_count": 84298,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        32
+      ],
+      [
+        "unzip",
+        102
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 5
+  },
+  {
+    "full_name": "zed-industries/zed",
+    "stargazers_count": 81450,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "par_extend",
+        4
+      ],
+      [
+        "par_sort",
+        5
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "reduce",
+        42
+      ],
+      [
+        "unzip",
+        41
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 14
+  },
+  {
+    "full_name": "FuelLabs/sway",
+    "stargazers_count": 61727,
+    "patterns": [
+      [
+        "par_iter",
+        21
+      ],
+      [
+        "par_bridge",
+        17
+      ],
+      [
+        "reduce",
+        66
+      ],
+      [
+        "unzip",
+        5
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "FuelLabs/fuel-core",
+    "stargazers_count": 57104,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        28
+      ],
+      [
+        "unzip",
+        11
+      ],
+      [
+        "rayon::spawn",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "starship/starship",
+    "stargazers_count": 57103,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "warpdotdev/warp",
+    "stargazers_count": 53321,
+    "patterns": [
+      [
+        "par_iter",
+        14
+      ],
+      [
+        "par_extend",
+        2
+      ],
+      [
+        "reduce",
+        58
+      ],
+      [
+        "unzip",
+        20
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "typst/typst",
+    "stargazers_count": 53263,
+    "patterns": [
+      [
+        "par_iter",
+        8
+      ],
+      [
+        "par_bridge",
+        3
+      ],
+      [
+        "flat_map_iter",
+        1
+      ],
+      [
+        "reduce",
+        31
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "astral-sh/ruff",
+    "stargazers_count": 47349,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        133
+      ],
+      [
+        "unzip",
+        3
+      ],
+      [
+        "rayon::scope",
+        5
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        8
+      ],
+      [
+        "ThreadPool",
+        8
+      ]
+    ],
+    "unsafe_in_rayon_files": 4
+  },
+  {
+    "full_name": "aaif-goose/goose",
+    "stargazers_count": 43705,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "reduce",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "nushell/nushell",
+    "stargazers_count": 39321,
+    "patterns": [
+      [
+        "par_iter",
+        16
+      ],
+      [
+        "par_bridge",
+        7
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "reduce",
+        84
+      ],
+      [
+        "unzip",
+        10
+      ],
+      [
+        "rayon::spawn",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        5
+      ],
+      [
+        "impl ParallelIterator",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "pola-rs/polars",
+    "stargazers_count": 38364,
+    "patterns": [
+      [
+        "par_iter",
+        203
+      ],
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "par_extend",
+        1
+      ],
+      [
+        "par_sort",
+        48
+      ],
+      [
+        "par_sort_by",
+        6
+      ],
+      [
+        "par_sort_by_key",
+        2
+      ],
+      [
+        "reduce",
+        766
+      ],
+      [
+        "unzip",
+        56
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        15
+      ],
+      [
+        "rayon::spawn",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        6
+      ],
+      [
+        "ThreadPool",
+        11
+      ],
+      [
+        "impl ParallelIterator",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 390
+  },
+  {
+    "full_name": "lapce/lapce",
+    "stargazers_count": 38330,
+    "patterns": [
+      [
+        "reduce",
+        1
+      ],
+      [
+        "rayon::spawn",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "servo/servo",
+    "stargazers_count": 36624,
+    "patterns": [
+      [
+        "par_iter",
+        9
+      ],
+      [
+        "reduce",
+        20
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::scope",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        49
+      ],
+      [
+        "scope_fifo",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 27
+  },
+  {
+    "full_name": "DioxusLabs/dioxus",
+    "stargazers_count": 35904,
+    "patterns": [
+      [
+        "par_iter",
+        11
+      ],
+      [
+        "reduce",
+        11
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "swc-project/swc",
+    "stargazers_count": 33385,
+    "patterns": [
+      [
+        "par_iter",
+        62
+      ],
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        608
+      ],
+      [
+        "unzip",
+        5
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ],
+      [
+        "rayon::spawn",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "casey/just",
+    "stargazers_count": 33336,
+    "patterns": [],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "surrealdb/surrealdb",
+    "stargazers_count": 32012,
+    "patterns": [
+      [
+        "par_iter",
+        20
+      ],
+      [
+        "par_sort",
+        5
+      ],
+      [
+        "reduce",
+        109
+      ],
+      [
+        "unzip",
+        7
+      ],
+      [
+        "rayon::spawn",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 7
+  },
+  {
+    "full_name": "qdrant/qdrant",
+    "stargazers_count": 30981,
+    "patterns": [
+      [
+        "par_iter",
+        12
+      ],
+      [
+        "reduce",
+        24
+      ],
+      [
+        "unzip",
+        19
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        5
+      ],
+      [
+        "ThreadPool",
+        15
+      ]
+    ],
+    "unsafe_in_rayon_files": 8
+  },
+  {
+    "full_name": "vercel/turborepo",
+    "stargazers_count": 30294,
+    "patterns": [
+      [
+        "par_iter",
+        18
+      ],
+      [
+        "flat_map_iter",
+        1
+      ],
+      [
+        "reduce",
+        19
+      ],
+      [
+        "unzip",
+        3
+      ],
+      [
+        "rayon::scope",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "emilk/egui",
+    "stargazers_count": 28940,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        13
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "jj-vcs/jj",
+    "stargazers_count": 28514,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        14
+      ],
+      [
+        "unzip",
+        13
+      ],
+      [
+        "rayon::scope",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "chroma-core/chroma",
+    "stargazers_count": 27782,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        27
+      ],
+      [
+        "unzip",
+        5
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ankitects/anki",
+    "stargazers_count": 27756,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        8
+      ],
+      [
+        "unzip",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rustfs/rustfs",
+    "stargazers_count": 26993,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        158
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "wezterm/wezterm",
+    "stargazers_count": 25901,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "reduce",
+        41
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Wilfred/difftastic",
+    "stargazers_count": 25217,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "impl ParallelIterator",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "clockworklabs/SpacetimeDB",
+    "stargazers_count": 24623,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "flat_map_iter",
+        1
+      ],
+      [
+        "reduce",
+        5977
+      ],
+      [
+        "unzip",
+        10
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 4
+  },
+  {
+    "full_name": "biomejs/biome",
+    "stargazers_count": 24530,
+    "patterns": [
+      [
+        "reduce",
+        124
+      ],
+      [
+        "unzip",
+        23
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "niri-wm/niri",
+    "stargazers_count": 23632,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "reduce",
+        7
+      ],
+      [
+        "unzip",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "uutils/coreutils",
+    "stargazers_count": 23197,
+    "patterns": [
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "reduce",
+        9
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "slint-ui/slint",
+    "stargazers_count": 22472,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "reduce",
+        20
+      ],
+      [
+        "unzip",
+        12
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "gitui-org/gitui",
+    "stargazers_count": 21866,
+    "patterns": [
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "eza-community/eza",
+    "stargazers_count": 21612,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "bee-san/Ciphey",
+    "stargazers_count": 21366,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "oxc-project/oxc",
+    "stargazers_count": 20956,
+    "patterns": [
+      [
+        "par_iter",
+        36
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "reduce",
+        579
+      ],
+      [
+        "unzip",
+        5
+      ],
+      [
+        "rayon::scope",
+        4
+      ],
+      [
+        "rayon::join",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        10
+      ],
+      [
+        "ThreadPool",
+        10
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "wasmerio/wasmer",
+    "stargazers_count": 20644,
+    "patterns": [
+      [
+        "par_iter",
+        12
+      ],
+      [
+        "reduce",
+        32
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        14
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "huggingface/candle",
+    "stargazers_count": 20155,
+    "patterns": [
+      [
+        "par_iter",
+        14
+      ],
+      [
+        "par_chunks",
+        28
+      ],
+      [
+        "reduce",
+        377
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::scope",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 66
+  },
+  {
+    "full_name": "ruffle-rs/ruffle",
+    "stargazers_count": 18028,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "reduce",
+        6
+      ],
+      [
+        "unzip",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "bytecodealliance/wasmtime",
+    "stargazers_count": 17949,
+    "patterns": [
+      [
+        "par_iter",
+        12
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "par_extend",
+        3
+      ],
+      [
+        "reduce",
+        132
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 43
+  },
+  {
+    "full_name": "gfx-rs/wgpu",
+    "stargazers_count": 17037,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "reduce",
+        28
+      ],
+      [
+        "unzip",
+        13
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "getzola/zola",
+    "stargazers_count": 16993,
+    "patterns": [
+      [
+        "par_iter",
+        9
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rust-lang/rust-analyzer",
+    "stargazers_count": 16359,
+    "patterns": [
+      [
+        "par_iter",
+        10
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "reduce",
+        34
+      ],
+      [
+        "unzip",
+        11
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 16
+  },
+  {
+    "full_name": "PyO3/pyo3",
+    "stargazers_count": 15638,
+    "patterns": [
+      [
+        "reduce",
+        11
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "louis-e/arnis",
+    "stargazers_count": 15414,
+    "patterns": [
+      [
+        "par_iter",
+        14
+      ],
+      [
+        "reduce",
+        7
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "memvid/memvid",
+    "stargazers_count": 15338,
+    "patterns": [
+      [
+        "reduce",
+        5
+      ]
+    ],
+    "unsafe_in_rayon_files": 5
+  },
+  {
+    "full_name": "quickwit-oss/tantivy",
+    "stargazers_count": 15123,
+    "patterns": [
+      [
+        "reduce",
+        15
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        16
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "tracel-ai/burn",
+    "stargazers_count": 14985,
+    "patterns": [
+      [
+        "par_iter",
+        39
+      ],
+      [
+        "par_chunks",
+        46
+      ],
+      [
+        "reduce",
+        1033
+      ],
+      [
+        "unzip",
+        16
+      ],
+      [
+        "rayon::scope",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 50
+  },
+  {
+    "full_name": "solana-labs/solana",
+    "stargazers_count": 14863,
+    "patterns": [
+      [
+        "par_iter",
+        154
+      ],
+      [
+        "par_chunks",
+        12
+      ],
+      [
+        "flat_map_iter",
+        3
+      ],
+      [
+        "par_sort",
+        4
+      ],
+      [
+        "reduce",
+        100
+      ],
+      [
+        "unzip",
+        45
+      ],
+      [
+        "ThreadPoolBuilder",
+        72
+      ],
+      [
+        "ThreadPool",
+        174
+      ]
+    ],
+    "unsafe_in_rayon_files": 24
+  },
+  {
+    "full_name": "XAMPPRocky/tokei",
+    "stargazers_count": 14352,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "reduce",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rolldown/rolldown",
+    "stargazers_count": 13388,
+    "patterns": [
+      [
+        "par_iter",
+        61
+      ],
+      [
+        "par_bridge",
+        7
+      ],
+      [
+        "reduce",
+        13
+      ],
+      [
+        "impl ParallelIterator",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "rayon-rs/rayon",
+    "stargazers_count": 12942,
+    "patterns": [
+      [
+        "par_iter",
+        1004
+      ],
+      [
+        "par_chunks",
+        36
+      ],
+      [
+        "par_windows",
+        12
+      ],
+      [
+        "par_bridge",
+        29
+      ],
+      [
+        "par_extend",
+        59
+      ],
+      [
+        "flat_map_iter",
+        14
+      ],
+      [
+        "par_sort",
+        68
+      ],
+      [
+        "par_sort_by",
+        18
+      ],
+      [
+        "par_sort_by_key",
+        4
+      ],
+      [
+        "reduce",
+        346
+      ],
+      [
+        "unzip",
+        46
+      ],
+      [
+        "rayon::scope",
+        13
+      ],
+      [
+        "rayon::join",
+        25
+      ],
+      [
+        "rayon::spawn",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        167
+      ],
+      [
+        "ThreadPool",
+        241
+      ],
+      [
+        "impl ParallelIterator",
+        7
+      ],
+      [
+        "scope_fifo",
+        59
+      ]
+    ],
+    "unsafe_in_rayon_files": 153
+  },
+  {
+    "full_name": "web-infra-dev/rspack",
+    "stargazers_count": 12669,
+    "patterns": [
+      [
+        "par_iter",
+        105
+      ],
+      [
+        "par_bridge",
+        14
+      ],
+      [
+        "reduce",
+        44
+      ],
+      [
+        "unzip",
+        16
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::spawn",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 10
+  },
+  {
+    "full_name": "Canop/broot",
+    "stargazers_count": 12645,
+    "patterns": [
+      [
+        "reduce",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "bootandy/dust",
+    "stargazers_count": 11644,
+    "patterns": [
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "flxzt/rnote",
+    "stargazers_count": 11185,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::spawn",
+        22
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rerun-io/rerun",
+    "stargazers_count": 10629,
+    "patterns": [
+      [
+        "par_iter",
+        20
+      ],
+      [
+        "reduce",
+        49
+      ],
+      [
+        "unzip",
+        215
+      ],
+      [
+        "rayon::scope",
+        2
+      ],
+      [
+        "rayon::spawn",
+        5
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 19
+  },
+  {
+    "full_name": "foundry-rs/foundry",
+    "stargazers_count": 10317,
+    "patterns": [
+      [
+        "par_iter",
+        20
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "flat_map_iter",
+        2
+      ],
+      [
+        "reduce",
+        17
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "sigoden/aichat",
+    "stargazers_count": 9930,
+    "patterns": [
+      [
+        "unzip",
+        9
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "databendlabs/databend",
+    "stargazers_count": 9275,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        270
+      ],
+      [
+        "unzip",
+        27
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 7
+  },
+  {
+    "full_name": "spacejam/sled",
+    "stargazers_count": 8984,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "rayon::spawn",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 8
+  },
+  {
+    "full_name": "gyroflow/gyroflow",
+    "stargazers_count": 8455,
+    "patterns": [
+      [
+        "par_iter",
+        14
+      ],
+      [
+        "par_chunks",
+        5
+      ],
+      [
+        "reduce",
+        13
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 11
+  },
+  {
+    "full_name": "fastrepl/anarlog",
+    "stargazers_count": 8356,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "reduce",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "kreuzberg-dev/kreuzberg",
+    "stargazers_count": 8204,
+    "patterns": [
+      [
+        "par_iter",
+        15
+      ],
+      [
+        "par_chunks",
+        3
+      ],
+      [
+        "reduce",
+        127
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "amethyst/amethyst",
+    "stargazers_count": 8023,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "reduce",
+        6
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        9
+      ]
+    ],
+    "unsafe_in_rayon_files": 8
+  },
+  {
+    "full_name": "bensadeh/tailspin",
+    "stargazers_count": 7820,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "MystenLabs/sui",
+    "stargazers_count": 7672,
+    "patterns": [
+      [
+        "par_iter",
+        26
+      ],
+      [
+        "reduce",
+        125
+      ],
+      [
+        "unzip",
+        36
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ],
+      [
+        "impl ParallelIterator",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 3
+  },
+  {
+    "full_name": "Pumpkin-MC/Pumpkin",
+    "stargazers_count": 7525,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        50
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "parcel-bundler/lightningcss",
+    "stargazers_count": 7519,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        25
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "impl ParallelIterator",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 22
+  },
+  {
+    "full_name": "rustls/rustls",
+    "stargazers_count": 7379,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        18
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "mufeedvh/code2prompt",
+    "stargazers_count": 7323,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "veloren/veloren",
+    "stargazers_count": 7253,
+    "patterns": [
+      [
+        "par_iter",
+        55
+      ],
+      [
+        "par_bridge",
+        4
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "reduce",
+        250
+      ],
+      [
+        "unzip",
+        11
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        31
+      ],
+      [
+        "ThreadPool",
+        53
+      ],
+      [
+        "impl ParallelIterator",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "boa-dev/boa",
+    "stargazers_count": 7220,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        114
+      ],
+      [
+        "unzip",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "lucasgelfond/zerobrew",
+    "stargazers_count": 7201,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "0xPlaygrounds/rig",
+    "stargazers_count": 7147,
+    "patterns": [
+      [
+        "par_iter",
+        8
+      ],
+      [
+        "reduce",
+        4
+      ],
+      [
+        "unzip",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "EricLBuehler/mistral.rs",
+    "stargazers_count": 7093,
+    "patterns": [
+      [
+        "par_iter",
+        62
+      ],
+      [
+        "par_chunks",
+        4
+      ],
+      [
+        "reduce",
+        65
+      ],
+      [
+        "unzip",
+        6
+      ],
+      [
+        "rayon::spawn",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        9
+      ]
+    ],
+    "unsafe_in_rayon_files": 86
+  },
+  {
+    "full_name": "prefix-dev/pixi",
+    "stargazers_count": 6956,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        8
+      ],
+      [
+        "unzip",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rust-lang/rustup",
+    "stargazers_count": 6866,
+    "patterns": [
+      [
+        "reduce",
+        1
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "aptos-labs/aptos-core",
+    "stargazers_count": 6444,
+    "patterns": [
+      [
+        "par_iter",
+        132
+      ],
+      [
+        "par_chunks",
+        3
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        190
+      ],
+      [
+        "unzip",
+        66
+      ],
+      [
+        "rayon::scope",
+        13
+      ],
+      [
+        "rayon::join",
+        10
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        57
+      ],
+      [
+        "ThreadPool",
+        165
+      ]
+    ],
+    "unsafe_in_rayon_files": 12
+  },
+  {
+    "full_name": "lance-format/lance",
+    "stargazers_count": 6374,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "par_chunks",
+        10
+      ],
+      [
+        "reduce",
+        92
+      ],
+      [
+        "unzip",
+        47
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "alexpasmantier/television",
+    "stargazers_count": 5812,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        2
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "dmtrKovalenko/fff",
+    "stargazers_count": 5749,
+    "patterns": [
+      [
+        "par_iter",
+        9
+      ],
+      [
+        "par_chunks",
+        2
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "reduce",
+        1
+      ],
+      [
+        "unzip",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        2
+      ],
+      [
+        "rayon::broadcast",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 34
+  },
+  {
+    "full_name": "image-rs/image",
+    "stargazers_count": 5729,
+    "patterns": [
+      [
+        "par_chunks",
+        2
+      ],
+      [
+        "reduce",
+        8
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "signalapp/libsignal",
+    "stargazers_count": 5724,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "reduce",
+        6
+      ],
+      [
+        "unzip",
+        5
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "paradigmxyz/reth",
+    "stargazers_count": 5559,
+    "patterns": [
+      [
+        "par_iter",
+        45
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "par_sort",
+        10
+      ],
+      [
+        "par_sort_by",
+        5
+      ],
+      [
+        "par_sort_by_key",
+        5
+      ],
+      [
+        "reduce",
+        37
+      ],
+      [
+        "unzip",
+        8
+      ],
+      [
+        "rayon::join",
+        4
+      ],
+      [
+        "rayon::spawn",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        11
+      ],
+      [
+        "ThreadPool",
+        28
+      ]
+    ],
+    "unsafe_in_rayon_files": 4
+  },
+  {
+    "full_name": "massalabs/massa",
+    "stargazers_count": 5535,
+    "patterns": [
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "reduce",
+        9
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ImageOptim/gifski",
+    "stargazers_count": 5502,
+    "patterns": [
+      [
+        "reduce",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "bheisler/criterion.rs",
+    "stargazers_count": 5469,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "reduce",
+        17
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 3
+  },
+  {
+    "full_name": "spaceandtimefdn/sxt-proof-of-sql",
+    "stargazers_count": 5459,
+    "patterns": [
+      [
+        "par_iter",
+        37
+      ],
+      [
+        "par_chunks",
+        3
+      ],
+      [
+        "par_sort",
+        8
+      ],
+      [
+        "par_sort_by",
+        2
+      ],
+      [
+        "reduce",
+        80
+      ],
+      [
+        "unzip",
+        32
+      ],
+      [
+        "rayon::join",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Eventual-Inc/Daft",
+    "stargazers_count": 5446,
+    "patterns": [
+      [
+        "par_iter",
+        14
+      ],
+      [
+        "reduce",
+        76
+      ],
+      [
+        "unzip",
+        12
+      ],
+      [
+        "rayon::spawn",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 4
+  },
+  {
+    "full_name": "mtkennerly/ludusavi",
+    "stargazers_count": 5382,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "dimforge/rapier",
+    "stargazers_count": 5335,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "par_chunks",
+        2
+      ],
+      [
+        "reduce",
+        17
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 11
+  },
+  {
+    "full_name": "readysettech/readyset",
+    "stargazers_count": 5227,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        32
+      ],
+      [
+        "unzip",
+        9
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "supabase-community/postgres-language-server",
+    "stargazers_count": 5225,
+    "patterns": [
+      [
+        "reduce",
+        7
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "fluvio-community/fluvio",
+    "stargazers_count": 5208,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        17
+      ],
+      [
+        "unzip",
+        10
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "console-rs/indicatif",
+    "stargazers_count": 5125,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "reduce",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "cordx56/rustowl",
+    "stargazers_count": 5119,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "crablang/crab",
+    "stargazers_count": 5093,
+    "patterns": [
+      [
+        "par_iter",
+        22
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "par_sort",
+        1
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "reduce",
+        1812
+      ],
+      [
+        "unzip",
+        64
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        5
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        153
+      ],
+      [
+        "impl ParallelIterator",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 28
+  },
+  {
+    "full_name": "max-sixty/worktrunk",
+    "stargazers_count": 4882,
+    "patterns": [
+      [
+        "par_iter",
+        8
+      ],
+      [
+        "reduce",
+        12
+      ],
+      [
+        "rayon::scope",
+        8
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "tw93/Kaku",
+    "stargazers_count": 4837,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "reduce",
+        43
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ProvableHQ/leo",
+    "stargazers_count": 4812,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        5
+      ],
+      [
+        "unzip",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "sayanarijit/xplr",
+    "stargazers_count": 4742,
+    "patterns": [
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "par_sort",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "dimforge/nalgebra",
+    "stargazers_count": 4714,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        9
+      ],
+      [
+        "unzip",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 70
+  },
+  {
+    "full_name": "amber-lang/amber",
+    "stargazers_count": 4688,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ggez/ggez",
+    "stargazers_count": 4619,
+    "patterns": [],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ProvableHQ/snarkOS",
+    "stargazers_count": 4526,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "reduce",
+        4
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "rayon::spawn",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "voidzero-dev/vite-plus",
+    "stargazers_count": 4479,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "facebook/buck2",
+    "stargazers_count": 4329,
+    "patterns": [
+      [
+        "reduce",
+        49
+      ],
+      [
+        "unzip",
+        15
+      ],
+      [
+        "ThreadPool",
+        9
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "typedb/typedb",
+    "stargazers_count": 4306,
+    "patterns": [
+      [
+        "reduce",
+        250
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rust-ndarray/ndarray",
+    "stargazers_count": 4277,
+    "patterns": [
+      [
+        "par_iter",
+        45
+      ],
+      [
+        "reduce",
+        8
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 32
+  },
+  {
+    "full_name": "mayocream/koharu",
+    "stargazers_count": 4243,
+    "patterns": [
+      [
+        "par_iter",
+        4
+      ],
+      [
+        "reduce",
+        20
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "apache/iggy",
+    "stargazers_count": 4186,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        14
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "arxanas/git-branchless",
+    "stargazers_count": 4057,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "reduce",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        23
+      ],
+      [
+        "ThreadPool",
+        30
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "xacrimon/dashmap",
+    "stargazers_count": 4027,
+    "patterns": [
+      [
+        "par_iter",
+        34
+      ],
+      [
+        "par_extend",
+        8
+      ],
+      [
+        "flat_map_iter",
+        4
+      ],
+      [
+        "reduce",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 12
+  },
+  {
+    "full_name": "ArthurBrussee/brush",
+    "stargazers_count": 4019,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        41
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "linebender/vello",
+    "stargazers_count": 3977,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        132
+      ],
+      [
+        "unzip",
+        9
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "medialab/xan",
+    "stargazers_count": 3963,
+    "patterns": [
+      [
+        "par_iter",
+        8
+      ],
+      [
+        "par_sort",
+        5
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "oxipng/oxipng",
+    "stargazers_count": 3934,
+    "patterns": [
+      [
+        "par_iter",
+        11
+      ],
+      [
+        "reduce",
+        126
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ],
+      [
+        "rayon::spawn",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ruvnet/RuVector",
+    "stargazers_count": 3886,
+    "patterns": [
+      [
+        "par_iter",
+        131
+      ],
+      [
+        "par_chunks",
+        18
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "par_sort_by",
+        2
+      ],
+      [
+        "reduce",
+        452
+      ],
+      [
+        "unzip",
+        7
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        7
+      ],
+      [
+        "ThreadPoolBuilder",
+        9
+      ],
+      [
+        "ThreadPool",
+        10
+      ]
+    ],
+    "unsafe_in_rayon_files": 169
+  },
+  {
+    "full_name": "petgraph/petgraph",
+    "stargazers_count": 3878,
+    "patterns": [
+      [
+        "par_iter",
+        8
+      ],
+      [
+        "flat_map_iter",
+        1
+      ],
+      [
+        "reduce",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Findomain/Findomain",
+    "stargazers_count": 3724,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "dathere/qsv",
+    "stargazers_count": 3626,
+    "patterns": [
+      [
+        "par_iter",
+        21
+      ],
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "par_bridge",
+        4
+      ],
+      [
+        "par_sort",
+        18
+      ],
+      [
+        "par_sort_by",
+        5
+      ],
+      [
+        "reduce",
+        22
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        19
+      ]
+    ],
+    "unsafe_in_rayon_files": 66
+  },
+  {
+    "full_name": "maplibre/martin",
+    "stargazers_count": 3597,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        7
+      ],
+      [
+        "unzip",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Julien-cpsn/ATAC",
+    "stargazers_count": 3586,
+    "patterns": [
+      [
+        "par_iter",
+        12
+      ],
+      [
+        "par_bridge",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "DioxusLabs/blitz",
+    "stargazers_count": 3541,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "rayon::broadcast",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 11
+  },
+  {
+    "full_name": "wild-linker/wild",
+    "stargazers_count": 3539,
+    "patterns": [
+      [
+        "par_iter",
+        20
+      ],
+      [
+        "par_chunks",
+        2
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "par_sort_by_key",
+        1
+      ],
+      [
+        "reduce",
+        7
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "rayon::join",
+        2
+      ],
+      [
+        "rayon::spawn",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        8
+      ]
+    ],
+    "unsafe_in_rayon_files": 33
+  },
+  {
+    "full_name": "ouch-org/ouch",
+    "stargazers_count": 3537,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "WithSecureLabs/chainsaw",
+    "stargazers_count": 3535,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "Aloxaf/silicon",
+    "stargazers_count": 3525,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 9
+  },
+  {
+    "full_name": "rust-lang/rls",
+    "stargazers_count": 3499,
+    "patterns": [
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "sigp/lighthouse",
+    "stargazers_count": 3431,
+    "patterns": [
+      [
+        "par_iter",
+        27
+      ],
+      [
+        "reduce",
+        56
+      ],
+      [
+        "unzip",
+        17
+      ],
+      [
+        "rayon::join",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        3
+      ],
+      [
+        "ThreadPool",
+        6
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Lagrange-Labs/deep-prove",
+    "stargazers_count": 3343,
+    "patterns": [
+      [
+        "par_iter",
+        129
+      ],
+      [
+        "par_chunks",
+        29
+      ],
+      [
+        "flat_map_iter",
+        1
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "reduce",
+        48
+      ],
+      [
+        "unzip",
+        54
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "impl ParallelIterator",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 5
+  },
+  {
+    "full_name": "dtolnay/syn",
+    "stargazers_count": 3315,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 12
+  },
+  {
+    "full_name": "valence-rs/valence",
+    "stargazers_count": 3207,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "reduce",
+        11
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "rayon::join",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "Myriad-Dreamin/tinymist",
+    "stargazers_count": 3151,
+    "patterns": [
+      [
+        "par_iter",
+        11
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        14
+      ],
+      [
+        "rayon::spawn",
+        3
+      ],
+      [
+        "impl ParallelIterator",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 3
+  },
+  {
+    "full_name": "carthage-software/mago",
+    "stargazers_count": 3063,
+    "patterns": [
+      [
+        "par_iter",
+        11
+      ],
+      [
+        "reduce",
+        65
+      ],
+      [
+        "unzip",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        9
+      ]
+    ],
+    "unsafe_in_rayon_files": 35
+  },
+  {
+    "full_name": "qltysh/qlty",
+    "stargazers_count": 3052,
+    "patterns": [
+      [
+        "par_iter",
+        24
+      ],
+      [
+        "reduce",
+        5
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 5
+  },
+  {
+    "full_name": "AtalayaLabs/OxiCloud",
+    "stargazers_count": 3047,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "reduce",
+        5
+      ],
+      [
+        "rayon::spawn",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "bahdotsh/wrkflw",
+    "stargazers_count": 2918,
+    "patterns": [
+      [
+        "reduce",
+        3
+      ],
+      [
+        "unzip",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "rust-lang/hashbrown",
+    "stargazers_count": 2912,
+    "patterns": [
+      [
+        "par_iter",
+        104
+      ],
+      [
+        "par_extend",
+        17
+      ],
+      [
+        "reduce",
+        8
+      ]
+    ],
+    "unsafe_in_rayon_files": 293
+  },
+  {
+    "full_name": "sonos/tract",
+    "stargazers_count": 2894,
+    "patterns": [
+      [
+        "par_iter",
+        5
+      ],
+      [
+        "reduce",
+        455
+      ],
+      [
+        "unzip",
+        9
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 19
+  },
+  {
+    "full_name": "shshemi/tabiew",
+    "stargazers_count": 2860,
+    "patterns": [
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "salsa-rs/salsa",
+    "stargazers_count": 2829,
+    "patterns": [
+      [
+        "reduce",
+        5
+      ]
+    ],
+    "unsafe_in_rayon_files": 87
+  },
+  {
+    "full_name": "luminal-ai/luminal",
+    "stargazers_count": 2817,
+    "patterns": [
+      [
+        "reduce",
+        118
+      ],
+      [
+        "ThreadPool",
+        30
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "tach-org/tach",
+    "stargazers_count": 2711,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "par_bridge",
+        6
+      ],
+      [
+        "par_extend",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "GuillaumeGomez/sysinfo",
+    "stargazers_count": 2674,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "par_bridge",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 70
+  },
+  {
+    "full_name": "hora-search/hora",
+    "stargazers_count": 2661,
+    "patterns": [
+      [
+        "par_iter",
+        12
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "agersant/polaris",
+    "stargazers_count": 2622,
+    "patterns": [
+      [
+        "par_sort",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        4
+      ],
+      [
+        "ThreadPool",
+        4
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "amethyst/specs",
+    "stargazers_count": 2604,
+    "patterns": [],
+    "unsafe_in_rayon_files": 76
+  },
+  {
+    "full_name": "near/nearcore",
+    "stargazers_count": 2589,
+    "patterns": [
+      [
+        "par_iter",
+        21
+      ],
+      [
+        "par_bridge",
+        6
+      ],
+      [
+        "reduce",
+        62
+      ],
+      [
+        "unzip",
+        6
+      ],
+      [
+        "rayon::join",
+        3
+      ],
+      [
+        "rayon::spawn",
+        6
+      ],
+      [
+        "ThreadPoolBuilder",
+        5
+      ],
+      [
+        "ThreadPool",
+        46
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "rust-lang-nursery/rust-cookbook",
+    "stargazers_count": 2566,
+    "patterns": [
+      [
+        "par_sort",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "samizdatco/skia-canvas",
+    "stargazers_count": 2558,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        6
+      ],
+      [
+        "rayon::spawn",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 8
+  },
+  {
+    "full_name": "gakonst/ethers-rs",
+    "stargazers_count": 2527,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        2
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "namada-net/namada",
+    "stargazers_count": 2527,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "par_bridge",
+        2
+      ],
+      [
+        "reduce",
+        31
+      ],
+      [
+        "unzip",
+        6
+      ],
+      [
+        "ThreadPoolBuilder",
+        2
+      ],
+      [
+        "ThreadPool",
+        5
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "junhoyeo/tokscale",
+    "stargazers_count": 2519,
+    "patterns": [
+      [
+        "par_iter",
+        36
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        3
+      ]
+    ],
+    "unsafe_in_rayon_files": 24
+  },
+  {
+    "full_name": "weggli-rs/weggli",
+    "stargazers_count": 2484,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "rayon::scope",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 1
+  },
+  {
+    "full_name": "utooland/utoo",
+    "stargazers_count": 2463,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        7
+      ],
+      [
+        "rayon::spawn",
+        4
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 4
+  },
+  {
+    "full_name": "mohsen1/yek",
+    "stargazers_count": 2447,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "par_sort_by",
+        2
+      ],
+      [
+        "rayon::join",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "StractOrg/stract",
+    "stargazers_count": 2383,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "reduce",
+        11
+      ],
+      [
+        "unzip",
+        8
+      ],
+      [
+        "rayon::scope",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        14
+      ],
+      [
+        "ThreadPool",
+        25
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "afnanenayet/diffsitter",
+    "stargazers_count": 2368,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 3
+  },
+  {
+    "full_name": "parseablehq/parseable",
+    "stargazers_count": 2366,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "reduce",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "indexmap-rs/indexmap",
+    "stargazers_count": 2353,
+    "patterns": [
+      [
+        "par_iter",
+        44
+      ],
+      [
+        "par_extend",
+        8
+      ],
+      [
+        "par_sort",
+        36
+      ],
+      [
+        "par_sort_by",
+        16
+      ],
+      [
+        "par_sort_by_key",
+        4
+      ],
+      [
+        "reduce",
+        11
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "trishume/syntect",
+    "stargazers_count": 2328,
+    "patterns": [
+      [
+        "par_iter",
+        3
+      ],
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "crev-dev/cargo-crev",
+    "stargazers_count": 2298,
+    "patterns": [
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "EmbarkStudios/cargo-deny",
+    "stargazers_count": 2284,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "par_bridge",
+        1
+      ],
+      [
+        "par_sort",
+        2
+      ],
+      [
+        "par_sort_by",
+        1
+      ],
+      [
+        "par_sort_by_key",
+        1
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "rayon::scope",
+        5
+      ],
+      [
+        "rayon::join",
+        5
+      ]
+    ],
+    "unsafe_in_rayon_files": 2
+  },
+  {
+    "full_name": "cryfs/cryfs",
+    "stargazers_count": 2251,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "reduce",
+        9
+      ],
+      [
+        "unzip",
+        3
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        22
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "ferrumc-rs/ferrumc",
+    "stargazers_count": 2246,
+    "patterns": [
+      [
+        "par_iter",
+        1
+      ],
+      [
+        "par_bridge",
+        5
+      ],
+      [
+        "reduce",
+        5
+      ],
+      [
+        "unzip",
+        2
+      ],
+      [
+        "ThreadPool",
+        28
+      ]
+    ],
+    "unsafe_in_rayon_files": 5
+  },
+  {
+    "full_name": "jfecher/ante",
+    "stargazers_count": 2223,
+    "patterns": [
+      [
+        "par_iter",
+        6
+      ],
+      [
+        "reduce",
+        6
+      ],
+      [
+        "unzip",
+        2
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "fitzgen/bumpalo",
+    "stargazers_count": 2178,
+    "patterns": [
+      [
+        "reduce",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "TimmyOVO/deepseek-ocr.rs",
+    "stargazers_count": 2161,
+    "patterns": [
+      [
+        "par_iter",
+        7
+      ],
+      [
+        "par_chunks",
+        1
+      ],
+      [
+        "reduce",
+        3
+      ],
+      [
+        "unzip",
+        1
+      ],
+      [
+        "rayon::join",
+        1
+      ],
+      [
+        "ThreadPoolBuilder",
+        5
+      ],
+      [
+        "ThreadPool",
+        7
+      ]
+    ],
+    "unsafe_in_rayon_files": 3
+  },
+  {
+    "full_name": "J-F-Liu/lopdf",
+    "stargazers_count": 2150,
+    "patterns": [
+      [
+        "par_iter",
+        2
+      ],
+      [
+        "par_chunks",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  },
+  {
+    "full_name": "liuchengxu/vim-clap",
+    "stargazers_count": 2139,
+    "patterns": [
+      [
+        "par_iter",
+        21
+      ],
+      [
+        "par_bridge",
+        9
+      ],
+      [
+        "par_sort",
+        15
+      ],
+      [
+        "reduce",
+        4
+      ],
+      [
+        "unzip",
+        10
+      ],
+      [
+        "ThreadPoolBuilder",
+        1
+      ],
+      [
+        "ThreadPool",
+        1
+      ]
+    ],
+    "unsafe_in_rayon_files": 0
+  }
+]

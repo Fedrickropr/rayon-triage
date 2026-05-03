@@ -1,6 +1,6 @@
 use std::time::Instant;
 
-use base64::{engine::general_purpose::STANDARD, Engine};
+use base64::{Engine, engine::general_purpose::STANDARD};
 use reqwest::header::HeaderMap;
 use reqwest::header::HeaderValue;
 use reqwest::header::{AUTHORIZATION, USER_AGENT};

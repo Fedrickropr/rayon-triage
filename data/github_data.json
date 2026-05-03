@@ -1,1 +1,2238 @@
-[]
+[
+  {
+    "id": 133442384,
+    "full_name": "denoland/deno",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "html_url": "https://github.com/denoland/deno",
+    "stargazers_count": 106604,
+    "fork": false,
+    "owner": {
+      "login": "denoland",
+      "id": 42048915,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 699532645,
+    "full_name": "astral-sh/uv",
+    "description": "An extremely fast Python package and project manager, written in Rust.",
+    "html_url": "https://github.com/astral-sh/uv",
+    "stargazers_count": 84298,
+    "fork": false,
+    "owner": {
+      "login": "astral-sh",
+      "id": 115962839,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 340547520,
+    "full_name": "zed-industries/zed",
+    "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "html_url": "https://github.com/zed-industries/zed",
+    "stargazers_count": 81450,
+    "fork": false,
+    "owner": {
+      "login": "zed-industries",
+      "id": 79345384,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 331107018,
+    "full_name": "FuelLabs/sway",
+    "description": "🌴 Empowering everyone to build reliable and efficient smart contracts.",
+    "html_url": "https://github.com/FuelLabs/sway",
+    "stargazers_count": 61727,
+    "fork": false,
+    "owner": {
+      "login": "FuelLabs",
+      "id": 55993183,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 290882787,
+    "full_name": "FuelLabs/fuel-core",
+    "description": "Rust full node implementation of the Fuel v2 protocol.",
+    "html_url": "https://github.com/FuelLabs/fuel-core",
+    "stargazers_count": 57104,
+    "fork": false,
+    "owner": {
+      "login": "FuelLabs",
+      "id": 55993183,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 178991158,
+    "full_name": "starship/starship",
+    "description": "☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+    "html_url": "https://github.com/starship/starship",
+    "stargazers_count": 57103,
+    "fork": false,
+    "owner": {
+      "login": "starship",
+      "id": 49654870,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 384219990,
+    "full_name": "warpdotdev/warp",
+    "description": "Warp is an agentic development environment, born out of the terminal.",
+    "html_url": "https://github.com/warpdotdev/warp",
+    "stargazers_count": 53321,
+    "fork": false,
+    "owner": {
+      "login": "warpdotdev",
+      "id": 71840468,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 210702427,
+    "full_name": "typst/typst",
+    "description": "A markup-based typesetting system that is powerful and easy to learn.",
+    "html_url": "https://github.com/typst/typst",
+    "stargazers_count": 53263,
+    "fork": false,
+    "owner": {
+      "login": "typst",
+      "id": 67595261,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 523043277,
+    "full_name": "astral-sh/ruff",
+    "description": "An extremely fast Python linter and code formatter, written in Rust.",
+    "html_url": "https://github.com/astral-sh/ruff",
+    "stargazers_count": 47349,
+    "fork": false,
+    "owner": {
+      "login": "astral-sh",
+      "id": 115962839,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 846698999,
+    "full_name": "aaif-goose/goose",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "html_url": "https://github.com/aaif-goose/goose",
+    "stargazers_count": 43705,
+    "fork": false,
+    "owner": {
+      "login": "aaif-goose",
+      "id": 271095942,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 186024298,
+    "full_name": "nushell/nushell",
+    "description": "A new type of shell",
+    "html_url": "https://github.com/nushell/nushell",
+    "stargazers_count": 39321,
+    "fork": false,
+    "owner": {
+      "login": "nushell",
+      "id": 50749515,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 263727855,
+    "full_name": "pola-rs/polars",
+    "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+    "html_url": "https://github.com/pola-rs/polars",
+    "stargazers_count": 38364,
+    "fork": false,
+    "owner": {
+      "login": "pola-rs",
+      "id": 83768144,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 120425779,
+    "full_name": "lapce/lapce",
+    "description": "Lightning-fast and Powerful Code Editor written in Rust",
+    "html_url": "https://github.com/lapce/lapce",
+    "stargazers_count": 38330,
+    "fork": false,
+    "owner": {
+      "login": "lapce",
+      "id": 43668847,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 3390243,
+    "full_name": "servo/servo",
+    "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+    "html_url": "https://github.com/servo/servo",
+    "stargazers_count": 36624,
+    "fork": false,
+    "owner": {
+      "login": "servo",
+      "id": 2566135,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 329782568,
+    "full_name": "DioxusLabs/dioxus",
+    "description": "Fullstack app framework for web, desktop, and mobile.",
+    "html_url": "https://github.com/DioxusLabs/dioxus",
+    "stargazers_count": 35904,
+    "fork": false,
+    "owner": {
+      "login": "DioxusLabs",
+      "id": 79236386,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 115110181,
+    "full_name": "swc-project/swc",
+    "description": "Rust-based platform for the Web",
+    "html_url": "https://github.com/swc-project/swc",
+    "stargazers_count": 33385,
+    "fork": false,
+    "owner": {
+      "login": "swc-project",
+      "id": 26715726,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 61349723,
+    "full_name": "casey/just",
+    "description": "🤖 Just a command runner",
+    "html_url": "https://github.com/casey/just",
+    "stargazers_count": 33336,
+    "fork": false,
+    "owner": {
+      "login": "casey",
+      "id": 1945,
+      "type": "User"
+    }
+  },
+  {
+    "id": 436658287,
+    "full_name": "surrealdb/surrealdb",
+    "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
+    "html_url": "https://github.com/surrealdb/surrealdb",
+    "stargazers_count": 32012,
+    "fork": false,
+    "owner": {
+      "login": "surrealdb",
+      "id": 10982346,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 268163609,
+    "full_name": "qdrant/qdrant",
+    "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+    "html_url": "https://github.com/qdrant/qdrant",
+    "stargazers_count": 30981,
+    "fork": false,
+    "owner": {
+      "login": "qdrant",
+      "id": 73504361,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 413918947,
+    "full_name": "vercel/turborepo",
+    "description": "Build system optimized for JavaScript and TypeScript, written in Rust",
+    "html_url": "https://github.com/vercel/turborepo",
+    "stargazers_count": 30294,
+    "fork": false,
+    "owner": {
+      "login": "vercel",
+      "id": 14985020,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 165522651,
+    "full_name": "emilk/egui",
+    "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+    "html_url": "https://github.com/emilk/egui",
+    "stargazers_count": 28940,
+    "fork": false,
+    "owner": {
+      "login": "emilk",
+      "id": 1148717,
+      "type": "User"
+    }
+  },
+  {
+    "id": 322484700,
+    "full_name": "jj-vcs/jj",
+    "description": "A Git-compatible VCS that is both simple and powerful",
+    "html_url": "https://github.com/jj-vcs/jj",
+    "stargazers_count": 28514,
+    "fork": false,
+    "owner": {
+      "login": "jj-vcs",
+      "id": 166203655,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 546206616,
+    "full_name": "chroma-core/chroma",
+    "description": "Search infrastructure for AI",
+    "html_url": "https://github.com/chroma-core/chroma",
+    "stargazers_count": 27782,
+    "fork": false,
+    "owner": {
+      "login": "chroma-core",
+      "id": 105881770,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 7270538,
+    "full_name": "ankitects/anki",
+    "description": "Anki is a smart spaced repetition flashcard program",
+    "html_url": "https://github.com/ankitects/anki",
+    "stargazers_count": 27756,
+    "fork": false,
+    "owner": {
+      "login": "ankitects",
+      "id": 42564322,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 722597620,
+    "full_name": "rustfs/rustfs",
+    "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+    "html_url": "https://github.com/rustfs/rustfs",
+    "stargazers_count": 26993,
+    "fork": false,
+    "owner": {
+      "login": "rustfs",
+      "id": 151849438,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 120568143,
+    "full_name": "wezterm/wezterm",
+    "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+    "html_url": "https://github.com/wezterm/wezterm",
+    "stargazers_count": 25901,
+    "fork": false,
+    "owner": {
+      "login": "wezterm",
+      "id": 198158019,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 162276894,
+    "full_name": "Wilfred/difftastic",
+    "description": "a structural diff that understands syntax 🟥🟩",
+    "html_url": "https://github.com/Wilfred/difftastic",
+    "stargazers_count": 25217,
+    "fork": false,
+    "owner": {
+      "login": "Wilfred",
+      "id": 70800,
+      "type": "User"
+    }
+  },
+  {
+    "id": 654870350,
+    "full_name": "clockworklabs/SpacetimeDB",
+    "description": "Development at the speed of light",
+    "html_url": "https://github.com/clockworklabs/SpacetimeDB",
+    "stargazers_count": 24623,
+    "fork": false,
+    "owner": {
+      "login": "clockworklabs",
+      "id": 48072542,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 671654508,
+    "full_name": "biomejs/biome",
+    "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+    "html_url": "https://github.com/biomejs/biome",
+    "stargazers_count": 24530,
+    "fork": false,
+    "owner": {
+      "login": "biomejs",
+      "id": 140182603,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 676934005,
+    "full_name": "niri-wm/niri",
+    "description": "A scrollable-tiling Wayland compositor.",
+    "html_url": "https://github.com/niri-wm/niri",
+    "stargazers_count": 23632,
+    "fork": false,
+    "owner": {
+      "login": "niri-wm",
+      "id": 259576467,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 11847500,
+    "full_name": "uutils/coreutils",
+    "description": "Cross-platform Rust rewrite of the GNU coreutils",
+    "html_url": "https://github.com/uutils/coreutils",
+    "stargazers_count": 23197,
+    "fork": false,
+    "owner": {
+      "login": "uutils",
+      "id": 5148717,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 261124045,
+    "full_name": "slint-ui/slint",
+    "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+    "html_url": "https://github.com/slint-ui/slint",
+    "stargazers_count": 22472,
+    "fork": false,
+    "owner": {
+      "login": "slint-ui",
+      "id": 64742117,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 247725846,
+    "full_name": "gitui-org/gitui",
+    "description": "Blazing 💥 fast terminal-ui for git written in rust 🦀",
+    "html_url": "https://github.com/gitui-org/gitui",
+    "stargazers_count": 21866,
+    "fork": false,
+    "owner": {
+      "login": "gitui-org",
+      "id": 200196069,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 671832156,
+    "full_name": "eza-community/eza",
+    "description": "A modern alternative to ls",
+    "html_url": "https://github.com/eza-community/eza",
+    "stargazers_count": 21612,
+    "fork": false,
+    "owner": {
+      "login": "eza-community",
+      "id": 141388427,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 197261780,
+    "full_name": "bee-san/Ciphey",
+    "description": "⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡",
+    "html_url": "https://github.com/bee-san/Ciphey",
+    "stargazers_count": 21366,
+    "fork": false,
+    "owner": {
+      "login": "bee-san",
+      "id": 10378052,
+      "type": "User"
+    }
+  },
+  {
+    "id": 599431918,
+    "full_name": "oxc-project/oxc",
+    "description": "⚓ A collection of high-performance JavaScript tools.",
+    "html_url": "https://github.com/oxc-project/oxc",
+    "stargazers_count": 20956,
+    "fork": false,
+    "owner": {
+      "login": "oxc-project",
+      "id": 149946238,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 152572186,
+    "full_name": "wasmerio/wasmer",
+    "description": "🚀 Fast, secure, lightweight containers based on WebAssembly",
+    "html_url": "https://github.com/wasmerio/wasmer",
+    "stargazers_count": 20644,
+    "fork": false,
+    "owner": {
+      "login": "wasmerio",
+      "id": 44205449,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 655797848,
+    "full_name": "huggingface/candle",
+    "description": "Minimalist ML framework for Rust",
+    "html_url": "https://github.com/huggingface/candle",
+    "stargazers_count": 20155,
+    "fork": false,
+    "owner": {
+      "login": "huggingface",
+      "id": 25720743,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 183483988,
+    "full_name": "ruffle-rs/ruffle",
+    "description": "A Flash Player emulator written in Rust",
+    "html_url": "https://github.com/ruffle-rs/ruffle",
+    "stargazers_count": 18028,
+    "fork": false,
+    "owner": {
+      "login": "ruffle-rs",
+      "id": 50037962,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 101767772,
+    "full_name": "bytecodealliance/wasmtime",
+    "description": "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant",
+    "html_url": "https://github.com/bytecodealliance/wasmtime",
+    "stargazers_count": 17949,
+    "fork": false,
+    "owner": {
+      "login": "bytecodealliance",
+      "id": 54038801,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 148686316,
+    "full_name": "gfx-rs/wgpu",
+    "description": "A cross-platform, safe, pure-Rust graphics API.",
+    "html_url": "https://github.com/gfx-rs/wgpu",
+    "stargazers_count": 17037,
+    "fork": false,
+    "owner": {
+      "login": "gfx-rs",
+      "id": 8213174,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 75688610,
+    "full_name": "getzola/zola",
+    "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+    "html_url": "https://github.com/getzola/zola",
+    "stargazers_count": 16993,
+    "fork": false,
+    "owner": {
+      "login": "getzola",
+      "id": 43047029,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 115039706,
+    "full_name": "rust-lang/rust-analyzer",
+    "description": "A Rust compiler front-end for IDEs",
+    "html_url": "https://github.com/rust-lang/rust-analyzer",
+    "stargazers_count": 16359,
+    "fork": false,
+    "owner": {
+      "login": "rust-lang",
+      "id": 5430905,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 91151442,
+    "full_name": "PyO3/pyo3",
+    "description": "Rust bindings for the Python interpreter",
+    "html_url": "https://github.com/PyO3/pyo3",
+    "stargazers_count": 15638,
+    "fork": false,
+    "owner": {
+      "login": "PyO3",
+      "id": 28156855,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 535010087,
+    "full_name": "louis-e/arnis",
+    "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+    "html_url": "https://github.com/louis-e/arnis",
+    "stargazers_count": 15414,
+    "fork": false,
+    "owner": {
+      "login": "louis-e",
+      "id": 44675238,
+      "type": "User"
+    }
+  },
+  {
+    "id": 991431142,
+    "full_name": "memvid/memvid",
+    "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+    "html_url": "https://github.com/memvid/memvid",
+    "stargazers_count": 15338,
+    "fork": false,
+    "owner": {
+      "login": "memvid",
+      "id": 241489775,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 49412556,
+    "full_name": "quickwit-oss/tantivy",
+    "description": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust",
+    "html_url": "https://github.com/quickwit-oss/tantivy",
+    "stargazers_count": 15123,
+    "fork": false,
+    "owner": {
+      "login": "quickwit-oss",
+      "id": 98504233,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 515368123,
+    "full_name": "tracel-ai/burn",
+    "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+    "html_url": "https://github.com/tracel-ai/burn",
+    "stargazers_count": 14985,
+    "fork": false,
+    "owner": {
+      "login": "tracel-ai",
+      "id": 111992358,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 121470383,
+    "full_name": "solana-labs/solana",
+    "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
+    "html_url": "https://github.com/solana-labs/solana",
+    "stargazers_count": 14863,
+    "fork": false,
+    "owner": {
+      "login": "solana-labs",
+      "id": 35608259,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 36323226,
+    "full_name": "XAMPPRocky/tokei",
+    "description": "Count your code, quickly.",
+    "html_url": "https://github.com/XAMPPRocky/tokei",
+    "stargazers_count": 14352,
+    "fork": false,
+    "owner": {
+      "login": "XAMPPRocky",
+      "id": 4464295,
+      "type": "User"
+    }
+  },
+  {
+    "id": 693187866,
+    "full_name": "rolldown/rolldown",
+    "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+    "html_url": "https://github.com/rolldown/rolldown",
+    "stargazers_count": 13388,
+    "fork": false,
+    "owner": {
+      "login": "rolldown",
+      "id": 94954945,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 24725038,
+    "full_name": "rayon-rs/rayon",
+    "description": "Rayon: A data parallelism library for Rust",
+    "html_url": "https://github.com/rayon-rs/rayon",
+    "stargazers_count": 12942,
+    "fork": false,
+    "owner": {
+      "login": "rayon-rs",
+      "id": 32576850,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 476642602,
+    "full_name": "web-infra-dev/rspack",
+    "description": "Fast Rust-based bundler for the web with a modernized webpack API 🦀",
+    "html_url": "https://github.com/web-infra-dev/rspack",
+    "stargazers_count": 12669,
+    "fork": false,
+    "owner": {
+      "login": "web-infra-dev",
+      "id": 87694465,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 157766521,
+    "full_name": "Canop/broot",
+    "description": "A new way to see and navigate directory trees : https://dystroy.org/broot",
+    "html_url": "https://github.com/Canop/broot",
+    "stargazers_count": 12645,
+    "fork": false,
+    "owner": {
+      "login": "Canop",
+      "id": 617006,
+      "type": "User"
+    }
+  },
+  {
+    "id": 125563061,
+    "full_name": "bootandy/dust",
+    "description": "A more intuitive version of du in rust",
+    "html_url": "https://github.com/bootandy/dust",
+    "stargazers_count": 11644,
+    "fork": false,
+    "owner": {
+      "login": "bootandy",
+      "id": 311785,
+      "type": "User"
+    }
+  },
+  {
+    "id": 393045142,
+    "full_name": "flxzt/rnote",
+    "description": "Sketch and take handwritten notes.",
+    "html_url": "https://github.com/flxzt/rnote",
+    "stargazers_count": 11185,
+    "fork": false,
+    "owner": {
+      "login": "flxzt",
+      "id": 19841886,
+      "type": "User"
+    }
+  },
+  {
+    "id": 479289739,
+    "full_name": "rerun-io/rerun",
+    "description": "An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data",
+    "html_url": "https://github.com/rerun-io/rerun",
+    "stargazers_count": 10629,
+    "fork": false,
+    "owner": {
+      "login": "rerun-io",
+      "id": 99407368,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 404320053,
+    "full_name": "foundry-rs/foundry",
+    "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+    "html_url": "https://github.com/foundry-rs/foundry",
+    "stargazers_count": 10317,
+    "fork": false,
+    "owner": {
+      "login": "foundry-rs",
+      "id": 99892494,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 608896930,
+    "full_name": "sigoden/aichat",
+    "description": "All-in-one LLM CLI tool featuring Shell Assistant, Chat-REPL, RAG, AI Tools & Agents, with access to OpenAI, Claude, Gemini, Ollama, Groq, and more.",
+    "html_url": "https://github.com/sigoden/aichat",
+    "stargazers_count": 9930,
+    "fork": false,
+    "owner": {
+      "login": "sigoden",
+      "id": 4012553,
+      "type": "User"
+    }
+  },
+  {
+    "id": 302827809,
+    "full_name": "databendlabs/databend",
+    "description": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  — rebuilt from scratch. Unified architecture on your S3.",
+    "html_url": "https://github.com/databendlabs/databend",
+    "stargazers_count": 9275,
+    "fork": false,
+    "owner": {
+      "login": "databendlabs",
+      "id": 80994548,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 49401416,
+    "full_name": "spacejam/sled",
+    "description": "the champagne of beta embedded databases",
+    "html_url": "https://github.com/spacejam/sled",
+    "stargazers_count": 8984,
+    "fork": false,
+    "owner": {
+      "login": "spacejam",
+      "id": 1505488,
+      "type": "User"
+    }
+  },
+  {
+    "id": 427166323,
+    "full_name": "gyroflow/gyroflow",
+    "description": "Video stabilization using gyroscope data",
+    "html_url": "https://github.com/gyroflow/gyroflow",
+    "stargazers_count": 8455,
+    "fork": false,
+    "owner": {
+      "login": "gyroflow",
+      "id": 94141432,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 900550981,
+    "full_name": "fastrepl/anarlog",
+    "description": "Open source Granola AI Alternative",
+    "html_url": "https://github.com/fastrepl/anarlog",
+    "stargazers_count": 8356,
+    "fork": false,
+    "owner": {
+      "login": "fastrepl",
+      "id": 142983232,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 925434317,
+    "full_name": "kreuzberg-dev/kreuzberg",
+    "description": "A polyglot document intelligence framework with a Rust core. Extract text, metadata, images, and structured information from PDFs, Office documents, images, and 97+ formats. Available for Rust, Python, Ruby, Java, Go, PHP, Elixir, C#, R, C, TypeScript (Node/Bun/Wasm/Deno)- or use via CLI, REST API, or MCP server.",
+    "html_url": "https://github.com/kreuzberg-dev/kreuzberg",
+    "stargazers_count": 8204,
+    "fork": false,
+    "owner": {
+      "login": "kreuzberg-dev",
+      "id": 241328462,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 48364554,
+    "full_name": "amethyst/amethyst",
+    "description": "Data-oriented and data-driven game engine written in Rust",
+    "html_url": "https://github.com/amethyst/amethyst",
+    "stargazers_count": 8023,
+    "fork": false,
+    "owner": {
+      "login": "amethyst",
+      "id": 17814736,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 509970897,
+    "full_name": "bensadeh/tailspin",
+    "description": "🌀 A log file highlighter",
+    "html_url": "https://github.com/bensadeh/tailspin",
+    "stargazers_count": 7820,
+    "fork": false,
+    "owner": {
+      "login": "bensadeh",
+      "id": 701096,
+      "type": "User"
+    }
+  },
+  {
+    "id": 426075845,
+    "full_name": "MystenLabs/sui",
+    "description": " Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language",
+    "html_url": "https://github.com/MystenLabs/sui",
+    "stargazers_count": 7672,
+    "fork": false,
+    "owner": {
+      "login": "MystenLabs",
+      "id": 88845815,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 834966974,
+    "full_name": "Pumpkin-MC/Pumpkin",
+    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+    "html_url": "https://github.com/Pumpkin-MC/Pumpkin",
+    "stargazers_count": 7525,
+    "fork": false,
+    "owner": {
+      "login": "Pumpkin-MC",
+      "id": 193089026,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 415408545,
+    "full_name": "parcel-bundler/lightningcss",
+    "description": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.",
+    "html_url": "https://github.com/parcel-bundler/lightningcss",
+    "stargazers_count": 7519,
+    "fork": false,
+    "owner": {
+      "login": "parcel-bundler",
+      "id": 32607881,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 57920736,
+    "full_name": "rustls/rustls",
+    "description": "A modern TLS library in Rust",
+    "html_url": "https://github.com/rustls/rustls",
+    "stargazers_count": 7379,
+    "fork": false,
+    "owner": {
+      "login": "rustls",
+      "id": 65125397,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 769564277,
+    "full_name": "mufeedvh/code2prompt",
+    "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+    "html_url": "https://github.com/mufeedvh/code2prompt",
+    "stargazers_count": 7323,
+    "fork": false,
+    "owner": {
+      "login": "mufeedvh",
+      "id": 26198477,
+      "type": "User"
+    }
+  },
+  {
+    "id": 135222855,
+    "full_name": "veloren/veloren",
+    "description": "[mirror of https://gitlab.com/veloren/veloren] An open world, open source voxel RPG inspired by Dwarf Fortress and Cube World. This repository is a mirror. Please submit all PRs and issues on our GitLab page.",
+    "html_url": "https://github.com/veloren/veloren",
+    "stargazers_count": 7253,
+    "fork": false,
+    "owner": {
+      "login": "veloren",
+      "id": 39637074,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 144073539,
+    "full_name": "boa-dev/boa",
+    "description": "Boa is an embeddable Javascript engine written in Rust.",
+    "html_url": "https://github.com/boa-dev/boa",
+    "stargazers_count": 7220,
+    "fork": false,
+    "owner": {
+      "login": "boa-dev",
+      "id": 65306342,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 1137489544,
+    "full_name": "lucasgelfond/zerobrew",
+    "description": "A 5-20x faster experimental Homebrew alternative",
+    "html_url": "https://github.com/lucasgelfond/zerobrew",
+    "stargazers_count": 7201,
+    "fork": false,
+    "owner": {
+      "login": "lucasgelfond",
+      "id": 8399069,
+      "type": "User"
+    }
+  },
+  {
+    "id": 810861466,
+    "full_name": "0xPlaygrounds/rig",
+    "description": "⚙️🦀 Build modular and scalable LLM Applications in Rust",
+    "html_url": "https://github.com/0xPlaygrounds/rig",
+    "stargazers_count": 7147,
+    "fork": false,
+    "owner": {
+      "login": "0xPlaygrounds",
+      "id": 93353392,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 763774926,
+    "full_name": "EricLBuehler/mistral.rs",
+    "description": "Fast, flexible LLM inference",
+    "html_url": "https://github.com/EricLBuehler/mistral.rs",
+    "stargazers_count": 7093,
+    "fork": false,
+    "owner": {
+      "login": "EricLBuehler",
+      "id": 65165915,
+      "type": "User"
+    }
+  },
+  {
+    "id": 633817517,
+    "full_name": "prefix-dev/pixi",
+    "description": "Powerful system-level package manager for Linux, macOS and Windows written in Rust – building on top of the Conda ecosystem.",
+    "html_url": "https://github.com/prefix-dev/pixi",
+    "stargazers_count": 6956,
+    "fork": false,
+    "owner": {
+      "login": "prefix-dev",
+      "id": 111356225,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 43192623,
+    "full_name": "rust-lang/rustup",
+    "description": "The Rust toolchain installer",
+    "html_url": "https://github.com/rust-lang/rustup",
+    "stargazers_count": 6866,
+    "fork": false,
+    "owner": {
+      "login": "rust-lang",
+      "id": 5430905,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 462597790,
+    "full_name": "aptos-labs/aptos-core",
+    "description": "Aptos is a layer 1 blockchain built to support the widespread use of blockchain through better technology and user experience.",
+    "html_url": "https://github.com/aptos-labs/aptos-core",
+    "stargazers_count": 6444,
+    "fork": false,
+    "owner": {
+      "login": "aptos-labs",
+      "id": 99841612,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 511691380,
+    "full_name": "lance-format/lance",
+    "description": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..",
+    "html_url": "https://github.com/lance-format/lance",
+    "stargazers_count": 6374,
+    "fork": false,
+    "owner": {
+      "login": "lance-format",
+      "id": 243204601,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 857898245,
+    "full_name": "alexpasmantier/television",
+    "description": "A very fast, portable and hackable fuzzy finder.",
+    "html_url": "https://github.com/alexpasmantier/television",
+    "stargazers_count": 5812,
+    "fork": false,
+    "owner": {
+      "login": "alexpasmantier",
+      "id": 47638216,
+      "type": "User"
+    }
+  },
+  {
+    "id": 1029972503,
+    "full_name": "dmtrKovalenko/fff",
+    "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+    "html_url": "https://github.com/dmtrKovalenko/fff",
+    "stargazers_count": 5749,
+    "fork": false,
+    "owner": {
+      "login": "dmtrKovalenko",
+      "id": 16926049,
+      "type": "User"
+    }
+  },
+  {
+    "id": 20153092,
+    "full_name": "image-rs/image",
+    "description": "Encoding and decoding images in Rust",
+    "html_url": "https://github.com/image-rs/image",
+    "stargazers_count": 5729,
+    "fork": false,
+    "owner": {
+      "login": "image-rs",
+      "id": 49300799,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 294858647,
+    "full_name": "signalapp/libsignal",
+    "description": "Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.",
+    "html_url": "https://github.com/signalapp/libsignal",
+    "stargazers_count": 5724,
+    "fork": false,
+    "owner": {
+      "login": "signalapp",
+      "id": 702459,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 537233603,
+    "full_name": "paradigmxyz/reth",
+    "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
+    "html_url": "https://github.com/paradigmxyz/reth",
+    "stargazers_count": 5559,
+    "fork": false,
+    "owner": {
+      "login": "paradigmxyz",
+      "id": 97369466,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 425736647,
+    "full_name": "massalabs/massa",
+    "description": "The Decentralized and Scaled Blockchain",
+    "html_url": "https://github.com/massalabs/massa",
+    "stargazers_count": 5535,
+    "fork": false,
+    "owner": {
+      "login": "massalabs",
+      "id": 92152619,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 109192133,
+    "full_name": "ImageOptim/gifski",
+    "description": "GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.",
+    "html_url": "https://github.com/ImageOptim/gifski",
+    "stargazers_count": 5502,
+    "fork": false,
+    "owner": {
+      "login": "ImageOptim",
+      "id": 17676906,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 20188259,
+    "full_name": "bheisler/criterion.rs",
+    "description": "Statistics-driven benchmarking library for Rust",
+    "html_url": "https://github.com/bheisler/criterion.rs",
+    "stargazers_count": 5469,
+    "fork": false,
+    "owner": {
+      "login": "bheisler",
+      "id": 1616938,
+      "type": "User"
+    }
+  },
+  {
+    "id": 791952944,
+    "full_name": "spaceandtimefdn/sxt-proof-of-sql",
+    "description": "Space and Time | Proof of SQL",
+    "html_url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql",
+    "stargazers_count": 5459,
+    "fork": false,
+    "owner": {
+      "login": "spaceandtimefdn",
+      "id": 101605166,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 485548415,
+    "full_name": "Eventual-Inc/Daft",
+    "description": "High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale",
+    "html_url": "https://github.com/Eventual-Inc/Daft",
+    "stargazers_count": 5446,
+    "fork": false,
+    "owner": {
+      "login": "Eventual-Inc",
+      "id": 98941975,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 273743952,
+    "full_name": "mtkennerly/ludusavi",
+    "description": "Backup tool for PC game saves",
+    "html_url": "https://github.com/mtkennerly/ludusavi",
+    "stargazers_count": 5382,
+    "fork": false,
+    "owner": {
+      "login": "mtkennerly",
+      "id": 4934192,
+      "type": "User"
+    }
+  },
+  {
+    "id": 290312103,
+    "full_name": "dimforge/rapier",
+    "description": "2D and 3D physics engines focused on performance.",
+    "html_url": "https://github.com/dimforge/rapier",
+    "stargazers_count": 5335,
+    "fork": false,
+    "owner": {
+      "login": "dimforge",
+      "id": 43279238,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 495863734,
+    "full_name": "readysettech/readyset",
+    "description": "Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes.",
+    "html_url": "https://github.com/readysettech/readyset",
+    "stargazers_count": 5227,
+    "fork": false,
+    "owner": {
+      "login": "readysettech",
+      "id": 71727599,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 642080384,
+    "full_name": "supabase-community/postgres-language-server",
+    "description": "A Language Server for Postgres",
+    "html_url": "https://github.com/supabase-community/postgres-language-server",
+    "stargazers_count": 5225,
+    "fork": false,
+    "owner": {
+      "login": "supabase-community",
+      "id": 87650496,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 205473061,
+    "full_name": "fluvio-community/fluvio",
+    "description": "🦀 event stream processing for developers to collect and transform data in motion to power responsive data intensive applications.",
+    "html_url": "https://github.com/fluvio-community/fluvio",
+    "stargazers_count": 5208,
+    "fork": false,
+    "owner": {
+      "login": "fluvio-community",
+      "id": 163345959,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 89145566,
+    "full_name": "console-rs/indicatif",
+    "description": "A command line progress reporting library for Rust",
+    "html_url": "https://github.com/console-rs/indicatif",
+    "stargazers_count": 5125,
+    "fork": false,
+    "owner": {
+      "login": "console-rs",
+      "id": 97177645,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 873824041,
+    "full_name": "cordx56/rustowl",
+    "description": "Visualize Ownership and Lifetimes in Rust",
+    "html_url": "https://github.com/cordx56/rustowl",
+    "stargazers_count": 5119,
+    "fork": false,
+    "owner": {
+      "login": "cordx56",
+      "id": 23298744,
+      "type": "User"
+    }
+  },
+  {
+    "id": 626546516,
+    "full_name": "crablang/crab",
+    "description": "A community fork of a language named after a plant fungus. All of the memory-safe features you love, now with 100% less bureaucracy! ",
+    "html_url": "https://github.com/crablang/crab",
+    "stargazers_count": 5093,
+    "fork": false,
+    "owner": {
+      "login": "crablang",
+      "id": 130611478,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 1078528927,
+    "full_name": "max-sixty/worktrunk",
+    "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "html_url": "https://github.com/max-sixty/worktrunk",
+    "stargazers_count": 4882,
+    "fork": false,
+    "owner": {
+      "login": "max-sixty",
+      "id": 5635139,
+      "type": "User"
+    }
+  },
+  {
+    "id": 1152157239,
+    "full_name": "tw93/Kaku",
+    "description": "🎃 A fast, out-of-the-box terminal built for AI coding.",
+    "html_url": "https://github.com/tw93/Kaku",
+    "stargazers_count": 4837,
+    "fork": false,
+    "owner": {
+      "login": "tw93",
+      "id": 8736212,
+      "type": "User"
+    }
+  },
+  {
+    "id": 246203444,
+    "full_name": "ProvableHQ/leo",
+    "description": "🦁 The Leo Programming Language. A Programming Language for Formally Verified, Zero-Knowledge Applications",
+    "html_url": "https://github.com/ProvableHQ/leo",
+    "stargazers_count": 4812,
+    "fork": false,
+    "owner": {
+      "login": "ProvableHQ",
+      "id": 57516293,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 342030057,
+    "full_name": "sayanarijit/xplr",
+    "description": "A hackable, minimal, fast TUI file explorer",
+    "html_url": "https://github.com/sayanarijit/xplr",
+    "stargazers_count": 4742,
+    "fork": false,
+    "owner": {
+      "login": "sayanarijit",
+      "id": 11632726,
+      "type": "User"
+    }
+  },
+  {
+    "id": 10062775,
+    "full_name": "dimforge/nalgebra",
+    "description": "Linear algebra library for Rust.",
+    "html_url": "https://github.com/dimforge/nalgebra",
+    "stargazers_count": 4714,
+    "fork": false,
+    "owner": {
+      "login": "dimforge",
+      "id": 43279238,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 516106592,
+    "full_name": "amber-lang/amber",
+    "description": "💎 Amber the programming language compiled to Bash",
+    "html_url": "https://github.com/amber-lang/amber",
+    "stargazers_count": 4688,
+    "fork": false,
+    "owner": {
+      "login": "amber-lang",
+      "id": 174622856,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 50728157,
+    "full_name": "ggez/ggez",
+    "description": "Rust library to create a Good Game Easily",
+    "html_url": "https://github.com/ggez/ggez",
+    "stargazers_count": 4619,
+    "fork": false,
+    "owner": {
+      "login": "ggez",
+      "id": 16974437,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 240971104,
+    "full_name": "ProvableHQ/snarkOS",
+    "description": "A Decentralized Operating System for ZK Applications",
+    "html_url": "https://github.com/ProvableHQ/snarkOS",
+    "stargazers_count": 4526,
+    "fork": false,
+    "owner": {
+      "login": "ProvableHQ",
+      "id": 57516293,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 943901988,
+    "full_name": "voidzero-dev/vite-plus",
+    "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
+    "html_url": "https://github.com/voidzero-dev/vite-plus",
+    "stargazers_count": 4479,
+    "fork": false,
+    "owner": {
+      "login": "voidzero-dev",
+      "id": 149750581,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 450625045,
+    "full_name": "facebook/buck2",
+    "description": "Build system, successor to Buck",
+    "html_url": "https://github.com/facebook/buck2",
+    "stargazers_count": 4329,
+    "fork": false,
+    "owner": {
+      "login": "facebook",
+      "id": 69631,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 63110867,
+    "full_name": "typedb/typedb",
+    "description": "TypeDB: Built for systems, not records",
+    "html_url": "https://github.com/typedb/typedb",
+    "stargazers_count": 4306,
+    "fork": false,
+    "owner": {
+      "login": "typedb",
+      "id": 10490615,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 22598813,
+    "full_name": "rust-ndarray/ndarray",
+    "description": "ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations",
+    "html_url": "https://github.com/rust-ndarray/ndarray",
+    "stargazers_count": 4277,
+    "fork": false,
+    "owner": {
+      "login": "rust-ndarray",
+      "id": 44419403,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 963223041,
+    "full_name": "mayocream/koharu",
+    "description": "ML-powered manga translator, written in Rust.",
+    "html_url": "https://github.com/mayocream/koharu",
+    "stargazers_count": 4243,
+    "fork": false,
+    "owner": {
+      "login": "mayocream",
+      "id": 35420264,
+      "type": "User"
+    }
+  },
+  {
+    "id": 615853935,
+    "full_name": "apache/iggy",
+    "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+    "html_url": "https://github.com/apache/iggy",
+    "stargazers_count": 4186,
+    "fork": false,
+    "owner": {
+      "login": "apache",
+      "id": 47359,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 320370787,
+    "full_name": "arxanas/git-branchless",
+    "description": "High-velocity, monorepo-scale workflow for Git",
+    "html_url": "https://github.com/arxanas/git-branchless",
+    "stargazers_count": 4057,
+    "fork": false,
+    "owner": {
+      "login": "arxanas",
+      "id": 454057,
+      "type": "User"
+    }
+  },
+  {
+    "id": 226417174,
+    "full_name": "xacrimon/dashmap",
+    "description": "Blazing fast concurrent HashMap for Rust.",
+    "html_url": "https://github.com/xacrimon/dashmap",
+    "stargazers_count": 4027,
+    "fork": false,
+    "owner": {
+      "login": "xacrimon",
+      "id": 21025159,
+      "type": "User"
+    }
+  },
+  {
+    "id": 762378215,
+    "full_name": "ArthurBrussee/brush",
+    "description": "3D Reconstruction for all",
+    "html_url": "https://github.com/ArthurBrussee/brush",
+    "stargazers_count": 4019,
+    "fork": false,
+    "owner": {
+      "login": "ArthurBrussee",
+      "id": 7014262,
+      "type": "User"
+    }
+  },
+  {
+    "id": 255966443,
+    "full_name": "linebender/vello",
+    "description": "A GPU compute-centric 2D renderer.",
+    "html_url": "https://github.com/linebender/vello",
+    "stargazers_count": 3977,
+    "fork": false,
+    "owner": {
+      "login": "linebender",
+      "id": 46134943,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 140488417,
+    "full_name": "medialab/xan",
+    "description": "The CSV magician",
+    "html_url": "https://github.com/medialab/xan",
+    "stargazers_count": 3963,
+    "fork": false,
+    "owner": {
+      "login": "medialab",
+      "id": 534856,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 49436331,
+    "full_name": "oxipng/oxipng",
+    "description": "Multithreaded PNG optimizer written in Rust",
+    "html_url": "https://github.com/oxipng/oxipng",
+    "stargazers_count": 3934,
+    "fork": false,
+    "owner": {
+      "login": "oxipng",
+      "id": 215013815,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 1099547803,
+    "full_name": "ruvnet/RuVector",
+    "description": "RuVector is a High Performance, Real-Time, Self-Learning Ai, Vector GNN, Memory DB built in Rust.",
+    "html_url": "https://github.com/ruvnet/RuVector",
+    "stargazers_count": 3886,
+    "fork": false,
+    "owner": {
+      "login": "ruvnet",
+      "id": 2934394,
+      "type": "User"
+    }
+  },
+  {
+    "id": 28330263,
+    "full_name": "petgraph/petgraph",
+    "description": "Graph data structure library for Rust.",
+    "html_url": "https://github.com/petgraph/petgraph",
+    "stargazers_count": 3878,
+    "fork": false,
+    "owner": {
+      "login": "petgraph",
+      "id": 54367397,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 181352945,
+    "full_name": "Findomain/Findomain",
+    "description": "The fastest and complete solution for domain recognition. Supports screenshoting, port scan, HTTP check, data import from other tools, subdomain monitoring, alerts via Discord, Slack and Telegram, multiple API Keys for sources and much more.",
+    "html_url": "https://github.com/Findomain/Findomain",
+    "stargazers_count": 3724,
+    "fork": false,
+    "owner": {
+      "login": "Findomain",
+      "id": 71452212,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 320463703,
+    "full_name": "dathere/qsv",
+    "description": "Blazing-fast Data-Wrangling toolkit",
+    "html_url": "https://github.com/dathere/qsv",
+    "stargazers_count": 3626,
+    "fork": false,
+    "owner": {
+      "login": "dathere",
+      "id": 61702229,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 105363726,
+    "full_name": "maplibre/martin",
+    "description": "Blazing fast and lightweight PostGIS, MBtiles and PMtiles tile server, tile generation, and mbtiles tooling.",
+    "html_url": "https://github.com/maplibre/martin",
+    "stargazers_count": 3597,
+    "fork": false,
+    "owner": {
+      "login": "maplibre",
+      "id": 75709127,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 753274513,
+    "full_name": "Julien-cpsn/ATAC",
+    "description": "A simple API client (postman like) in your terminal",
+    "html_url": "https://github.com/Julien-cpsn/ATAC",
+    "stargazers_count": 3586,
+    "fork": false,
+    "owner": {
+      "login": "Julien-cpsn",
+      "id": 64107022,
+      "type": "User"
+    }
+  },
+  {
+    "id": 464340188,
+    "full_name": "DioxusLabs/blitz",
+    "description": "A radically modular HTML/CSS rendering engine",
+    "html_url": "https://github.com/DioxusLabs/blitz",
+    "stargazers_count": 3541,
+    "fork": false,
+    "owner": {
+      "login": "DioxusLabs",
+      "id": 79236386,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 752839399,
+    "full_name": "wild-linker/wild",
+    "description": "A very fast linker for Linux",
+    "html_url": "https://github.com/wild-linker/wild",
+    "stargazers_count": 3539,
+    "fork": false,
+    "owner": {
+      "login": "wild-linker",
+      "id": 265150902,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 349334268,
+    "full_name": "ouch-org/ouch",
+    "description": "Painless compression and decompression in the terminal",
+    "html_url": "https://github.com/ouch-org/ouch",
+    "stargazers_count": 3537,
+    "fork": false,
+    "owner": {
+      "login": "ouch-org",
+      "id": 88866076,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 395658506,
+    "full_name": "WithSecureLabs/chainsaw",
+    "description": "Rapidly Search and Hunt through Windows Forensic Artefacts",
+    "html_url": "https://github.com/WithSecureLabs/chainsaw",
+    "stargazers_count": 3535,
+    "fork": false,
+    "owner": {
+      "login": "WithSecureLabs",
+      "id": 99874690,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 195663378,
+    "full_name": "Aloxaf/silicon",
+    "description": "Create beautiful image of your source code.",
+    "html_url": "https://github.com/Aloxaf/silicon",
+    "stargazers_count": 3525,
+    "fork": false,
+    "owner": {
+      "login": "Aloxaf",
+      "id": 17017672,
+      "type": "User"
+    }
+  },
+  {
+    "id": 66979953,
+    "full_name": "rust-lang/rls",
+    "description": "Repository for the Rust Language Server (aka RLS)",
+    "html_url": "https://github.com/rust-lang/rls",
+    "stargazers_count": 3499,
+    "fork": false,
+    "owner": {
+      "login": "rust-lang",
+      "id": 5430905,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 139952333,
+    "full_name": "sigp/lighthouse",
+    "description": "Ethereum consensus client in Rust",
+    "html_url": "https://github.com/sigp/lighthouse",
+    "stargazers_count": 3431,
+    "fork": false,
+    "owner": {
+      "login": "sigp",
+      "id": 22672004,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 885054052,
+    "full_name": "Lagrange-Labs/deep-prove",
+    "description": "Framework to prove inference of ML models blazingly fast",
+    "html_url": "https://github.com/Lagrange-Labs/deep-prove",
+    "stargazers_count": 3343,
+    "fork": false,
+    "owner": {
+      "login": "Lagrange-Labs",
+      "id": 102192234,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 67305738,
+    "full_name": "dtolnay/syn",
+    "description": "Parser for Rust source code",
+    "html_url": "https://github.com/dtolnay/syn",
+    "stargazers_count": 3315,
+    "fork": false,
+    "owner": {
+      "login": "dtolnay",
+      "id": 1940490,
+      "type": "User"
+    }
+  },
+  {
+    "id": 450114994,
+    "full_name": "valence-rs/valence",
+    "description": "A Rust framework for building Minecraft servers.",
+    "html_url": "https://github.com/valence-rs/valence",
+    "stargazers_count": 3207,
+    "fork": false,
+    "owner": {
+      "login": "valence-rs",
+      "id": 112739558,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 768315520,
+    "full_name": "Myriad-Dreamin/tinymist",
+    "description": "Tinymist [ˈtaɪni mɪst] is an integrated language service for Typst [taɪpst].",
+    "html_url": "https://github.com/Myriad-Dreamin/tinymist",
+    "stargazers_count": 3151,
+    "fork": false,
+    "owner": {
+      "login": "Myriad-Dreamin",
+      "id": 35292584,
+      "type": "User"
+    }
+  },
+  {
+    "id": 878733839,
+    "full_name": "carthage-software/mago",
+    "description": "Mago is a toolchain for PHP that aims to provide a set of tools to help developers write better code.",
+    "html_url": "https://github.com/carthage-software/mago",
+    "stargazers_count": 3063,
+    "fork": false,
+    "owner": {
+      "login": "carthage-software",
+      "id": 140348628,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 37724576,
+    "full_name": "qltysh/qlty",
+    "description": "💎 Code quality CLI for universal linting, auto-formatting, security scanning, and maintainability",
+    "html_url": "https://github.com/qltysh/qlty",
+    "stargazers_count": 3052,
+    "fork": false,
+    "owner": {
+      "login": "qltysh",
+      "id": 184769278,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 939308212,
+    "full_name": "AtalayaLabs/OxiCloud",
+    "description": "☁️ Ultra-fast, secure & lightweight self-hosted cloud storage — your files, photos, calendars & contacts, all in one place. Built in Rust.",
+    "html_url": "https://github.com/AtalayaLabs/OxiCloud",
+    "stargazers_count": 3047,
+    "fork": false,
+    "owner": {
+      "login": "AtalayaLabs",
+      "id": 261041813,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 956947576,
+    "full_name": "bahdotsh/wrkflw",
+    "description": "Validate and Run GitHub Actions locally.",
+    "html_url": "https://github.com/bahdotsh/wrkflw",
+    "stargazers_count": 2918,
+    "fork": false,
+    "owner": {
+      "login": "bahdotsh",
+      "id": 26796930,
+      "type": "User"
+    }
+  },
+  {
+    "id": 155119796,
+    "full_name": "rust-lang/hashbrown",
+    "description": "Rust port of Google's SwissTable hash map",
+    "html_url": "https://github.com/rust-lang/hashbrown",
+    "stargazers_count": 2912,
+    "fork": false,
+    "owner": {
+      "login": "rust-lang",
+      "id": 5430905,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 99561213,
+    "full_name": "sonos/tract",
+    "description": "Tiny, no-nonsense, self-contained, Tensorflow and ONNX inference",
+    "html_url": "https://github.com/sonos/tract",
+    "stargazers_count": 2894,
+    "fork": false,
+    "owner": {
+      "login": "sonos",
+      "id": 3075534,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 792805133,
+    "full_name": "shshemi/tabiew",
+    "description": "A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet.",
+    "html_url": "https://github.com/shshemi/tabiew",
+    "stargazers_count": 2860,
+    "fork": false,
+    "owner": {
+      "login": "shshemi",
+      "id": 6219240,
+      "type": "User"
+    }
+  },
+  {
+    "id": 150756173,
+    "full_name": "salsa-rs/salsa",
+    "description": "A generic framework for on-demand, incrementalized computation. Inspired by adapton, glimmer, and rustc's query system.",
+    "html_url": "https://github.com/salsa-rs/salsa",
+    "stargazers_count": 2829,
+    "fork": false,
+    "owner": {
+      "login": "salsa-rs",
+      "id": 43751271,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 668039137,
+    "full_name": "luminal-ai/luminal",
+    "description": "Inference at the speed of light.",
+    "html_url": "https://github.com/luminal-ai/luminal",
+    "stargazers_count": 2817,
+    "fork": false,
+    "owner": {
+      "login": "luminal-ai",
+      "id": 197632415,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 751038600,
+    "full_name": "tach-org/tach",
+    "description": "A Python tool to visualize + enforce dependencies, using modular architecture 🌎 Open source 🐍 Installable via pip 🔧 Able to be adopted incrementally - ⚡ Implemented with no runtime impact ♾️ Interoperable with your existing systems 🦀 Written in rust",
+    "html_url": "https://github.com/tach-org/tach",
+    "stargazers_count": 2711,
+    "fork": false,
+    "owner": {
+      "login": "tach-org",
+      "id": 244848155,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 31986253,
+    "full_name": "GuillaumeGomez/sysinfo",
+    "description": "Cross-platform library to fetch system information",
+    "html_url": "https://github.com/GuillaumeGomez/sysinfo",
+    "stargazers_count": 2674,
+    "fork": false,
+    "owner": {
+      "login": "GuillaumeGomez",
+      "id": 3050060,
+      "type": "User"
+    }
+  },
+  {
+    "id": 367571115,
+    "full_name": "hora-search/hora",
+    "description": "🚀  efficient approximate nearest neighbor search algorithm collections library written in Rust 🦀 . ",
+    "html_url": "https://github.com/hora-search/hora",
+    "stargazers_count": 2661,
+    "fork": false,
+    "owner": {
+      "login": "hora-search",
+      "id": 84223129,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 65657180,
+    "full_name": "agersant/polaris",
+    "description": "Polaris is a music streaming application, designed to let you enjoy your music collection from any computer or mobile device.",
+    "html_url": "https://github.com/agersant/polaris",
+    "stargazers_count": 2622,
+    "fork": false,
+    "owner": {
+      "login": "agersant",
+      "id": 817256,
+      "type": "User"
+    }
+  },
+  {
+    "id": 55565443,
+    "full_name": "amethyst/specs",
+    "description": "Specs - Parallel ECS",
+    "html_url": "https://github.com/amethyst/specs",
+    "stargazers_count": 2604,
+    "fork": false,
+    "owner": {
+      "login": "amethyst",
+      "id": 17814736,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 151331938,
+    "full_name": "near/nearcore",
+    "description": "Reference client for NEAR Protocol",
+    "html_url": "https://github.com/near/nearcore",
+    "stargazers_count": 2589,
+    "fork": false,
+    "owner": {
+      "login": "near",
+      "id": 7613128,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 82722984,
+    "full_name": "rust-lang-nursery/rust-cookbook",
+    "description": "https://rust-lang-nursery.github.io/rust-cookbook",
+    "html_url": "https://github.com/rust-lang-nursery/rust-cookbook",
+    "stargazers_count": 2566,
+    "fork": false,
+    "owner": {
+      "login": "rust-lang-nursery",
+      "id": 14631425,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 285112082,
+    "full_name": "samizdatco/skia-canvas",
+    "description": "A multi-threaded, GPU-powered, 2D vector graphics environment for Node.js",
+    "html_url": "https://github.com/samizdatco/skia-canvas",
+    "stargazers_count": 2558,
+    "fork": false,
+    "owner": {
+      "login": "samizdatco",
+      "id": 469523,
+      "type": "User"
+    }
+  },
+  {
+    "id": 266602341,
+    "full_name": "gakonst/ethers-rs",
+    "description": "Complete Ethereum & Celo library and wallet implementation in Rust. https://docs.rs/ethers",
+    "html_url": "https://github.com/gakonst/ethers-rs",
+    "stargazers_count": 2527,
+    "fork": false,
+    "owner": {
+      "login": "gakonst",
+      "id": 17802178,
+      "type": "User"
+    }
+  },
+  {
+    "id": 510559980,
+    "full_name": "namada-net/namada",
+    "description": "Rust implementation of Namada, a Proof-of-Stake L1 for interchain asset-agnostic privacy",
+    "html_url": "https://github.com/namada-net/namada",
+    "stargazers_count": 2527,
+    "fork": false,
+    "owner": {
+      "login": "namada-net",
+      "id": 219318751,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 1107676388,
+    "full_name": "junhoyeo/tokscale",
+    "description": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph",
+    "html_url": "https://github.com/junhoyeo/tokscale",
+    "stargazers_count": 2519,
+    "fork": false,
+    "owner": {
+      "login": "junhoyeo",
+      "id": 32605822,
+      "type": "User"
+    }
+  },
+  {
+    "id": 412132838,
+    "full_name": "weggli-rs/weggli",
+    "description": "weggli is a fast and robust semantic search tool for C and C++ codebases. It is designed to help security researchers identify interesting functionality in large codebases.",
+    "html_url": "https://github.com/weggli-rs/weggli",
+    "stargazers_count": 2484,
+    "fork": false,
+    "owner": {
+      "login": "weggli-rs",
+      "id": 120394271,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 624259511,
+    "full_name": "utooland/utoo",
+    "description": "A unified toolchain for web development",
+    "html_url": "https://github.com/utooland/utoo",
+    "stargazers_count": 2463,
+    "fork": false,
+    "owner": {
+      "login": "utooland",
+      "id": 217533135,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 915358848,
+    "full_name": "mohsen1/yek",
+    "description": "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption",
+    "html_url": "https://github.com/mohsen1/yek",
+    "stargazers_count": 2447,
+    "fork": false,
+    "owner": {
+      "login": "mohsen1",
+      "id": 543633,
+      "type": "User"
+    }
+  },
+  {
+    "id": 494024831,
+    "full_name": "StractOrg/stract",
+    "description": "web search done right",
+    "html_url": "https://github.com/StractOrg/stract",
+    "stargazers_count": 2383,
+    "fork": false,
+    "owner": {
+      "login": "StractOrg",
+      "id": 68652867,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 275508429,
+    "full_name": "afnanenayet/diffsitter",
+    "description": "A tree-sitter based AST difftool to get meaningful semantic diffs",
+    "html_url": "https://github.com/afnanenayet/diffsitter",
+    "stargazers_count": 2368,
+    "fork": false,
+    "owner": {
+      "login": "afnanenayet",
+      "id": 1750795,
+      "type": "User"
+    }
+  },
+  {
+    "id": 520784735,
+    "full_name": "parseablehq/parseable",
+    "description": "Parseable is an observability datalake built from first principles.",
+    "html_url": "https://github.com/parseablehq/parseable",
+    "stargazers_count": 2366,
+    "fork": false,
+    "owner": {
+      "login": "parseablehq",
+      "id": 94332517,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 68294628,
+    "full_name": "indexmap-rs/indexmap",
+    "description": "A hash table with consistent order and fast iteration; access items by key or sequence index",
+    "html_url": "https://github.com/indexmap-rs/indexmap",
+    "stargazers_count": 2353,
+    "fork": false,
+    "owner": {
+      "login": "indexmap-rs",
+      "id": 156262520,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 58836873,
+    "full_name": "trishume/syntect",
+    "description": "Rust library for syntax highlighting using Sublime Text syntax definitions.",
+    "html_url": "https://github.com/trishume/syntect",
+    "stargazers_count": 2328,
+    "fork": false,
+    "owner": {
+      "login": "trishume",
+      "id": 887610,
+      "type": "User"
+    }
+  },
+  {
+    "id": 145652047,
+    "full_name": "crev-dev/cargo-crev",
+    "description": "A cryptographically verifiable code review system for the cargo (Rust) package manager.",
+    "html_url": "https://github.com/crev-dev/cargo-crev",
+    "stargazers_count": 2298,
+    "fork": false,
+    "owner": {
+      "login": "crev-dev",
+      "id": 53240662,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 186371129,
+    "full_name": "EmbarkStudios/cargo-deny",
+    "description": "❌ Cargo plugin for linting your dependencies 🦀",
+    "html_url": "https://github.com/EmbarkStudios/cargo-deny",
+    "stargazers_count": 2284,
+    "fork": false,
+    "owner": {
+      "login": "EmbarkStudios",
+      "id": 44887257,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 42367060,
+    "full_name": "cryfs/cryfs",
+    "description": "Cryptographic filesystem for the cloud",
+    "html_url": "https://github.com/cryfs/cryfs",
+    "stargazers_count": 2251,
+    "fork": false,
+    "owner": {
+      "login": "cryfs",
+      "id": 12202394,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 686252426,
+    "full_name": "ferrumc-rs/ferrumc",
+    "description": "A reimplementation of the minecraft server in rust.",
+    "html_url": "https://github.com/ferrumc-rs/ferrumc",
+    "stargazers_count": 2246,
+    "fork": false,
+    "owner": {
+      "login": "ferrumc-rs",
+      "id": 181392966,
+      "type": "Organization"
+    }
+  },
+  {
+    "id": 40554247,
+    "full_name": "jfecher/ante",
+    "description": "A safe, easy systems language",
+    "html_url": "https://github.com/jfecher/ante",
+    "stargazers_count": 2223,
+    "fork": false,
+    "owner": {
+      "login": "jfecher",
+      "id": 13188781,
+      "type": "User"
+    }
+  },
+  {
+    "id": 158310651,
+    "full_name": "fitzgen/bumpalo",
+    "description": "A fast bump allocation arena for Rust",
+    "html_url": "https://github.com/fitzgen/bumpalo",
+    "stargazers_count": 2178,
+    "fork": false,
+    "owner": {
+      "login": "fitzgen",
+      "id": 74571,
+      "type": "User"
+    }
+  },
+  {
+    "id": 1083171672,
+    "full_name": "TimmyOVO/deepseek-ocr.rs",
+    "description": "Rust multi‑backend OCR/VLM engine (DeepSeek‑OCR-1/2, PaddleOCR‑VL, DotsOCR) with DSQ quantization and an OpenAI‑compatible server & CLI – run locally without Python.",
+    "html_url": "https://github.com/TimmyOVO/deepseek-ocr.rs",
+    "stargazers_count": 2161,
+    "fork": false,
+    "owner": {
+      "login": "TimmyOVO",
+      "id": 47740511,
+      "type": "User"
+    }
+  },
+  {
+    "id": 76324529,
+    "full_name": "J-F-Liu/lopdf",
+    "description": "A Rust library for PDF document manipulation.",
+    "html_url": "https://github.com/J-F-Liu/lopdf",
+    "stargazers_count": 2150,
+    "fork": false,
+    "owner": {
+      "login": "J-F-Liu",
+      "id": 1472963,
+      "type": "User"
+    }
+  },
+  {
+    "id": 211467758,
+    "full_name": "liuchengxu/vim-clap",
+    "description": ":clap: Modern performant fuzzy picker, tree-sitter highlighting, and more, for both Vim and NeoVim",
+    "html_url": "https://github.com/liuchengxu/vim-clap",
+    "stargazers_count": 2139,
+    "fork": false,
+    "owner": {
+      "login": "liuchengxu",
+      "id": 8850248,
+      "type": "User"
+    }
+  }
+]

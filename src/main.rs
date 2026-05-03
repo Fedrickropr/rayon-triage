@@ -1,41 +1,33 @@
 use std::time::Instant;
 
-use reqwest::header::{HeaderMap, HeaderValue, IntoHeaderName, AUTHORIZATION, USER_AGENT};
+use base64::{engine::general_purpose::STANDARD, Engine};
+use reqwest::header::HeaderMap;
+use reqwest::header::HeaderValue;
+use reqwest::header::{AUTHORIZATION, USER_AGENT};
 use serde::{Deserialize, Serialize};
 
-const GITHUB_ENDPOINT: &str = "https://api.github.com/search/code?q=";
+const GITHUB_REPO_ENDPOINT: &str =
+    "https://api.github.com/search/repositories?q=language:Rust&sort=stars&order=desc";
+const GITHUB_CONTENTS_ENDPOINT: &str = "https://api.github.com/repos";
 const PAGE_SIZE: u64 = 100;
 const FILE_PATH: &str = "data/github_data.json";
 const TOKEN: &str = "";
 
 #[derive(Debug, Deserialize)]
-struct CodeSearchResponse {
+struct RepoSearchResponse {
     total_count: u64,
     incomplete_results: bool,
-    items: Vec<CodeSearchItem>,
-}
-
-#[derive(Debug, Deserialize)]
-struct CodeSearchItem {
-    name: String,
-    path: String,
-    sha: String,
-    url: String,
-    html_url: String,
-    repository: Repository,
-    score: f64,
+    items: Vec<RepoItem>,
 }
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
-struct Repository {
+struct RepoItem {
     id: u64,
-    name: String,
     full_name: String,
-    private: bool,
-    fork: bool,
     description: Option<String>,
-    url: String,
     html_url: String,
+    stargazers_count: u64,
+    fork: bool,
     owner: Owner,
 }
 
@@ -63,16 +55,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn get_projects(client: &reqwest::blocking::Client) -> Result<(), Box<dyn std::error::Error>> {
-    let mut repos: std::collections::HashMap<String, Repository> = std::collections::HashMap::new();
+    let mut repos: Vec<RepoItem> = Vec::new();
     let mut page = 1;
 
-    let url_base = format!(
-        "{}rayon+language:Rust+filename:Cargo.toml&per_page={}&page=",
-        GITHUB_ENDPOINT, PAGE_SIZE
-    );
+    let url_base = format!("{}&per_page={}&page=", GITHUB_REPO_ENDPOINT, PAGE_SIZE);
 
     loop {
-        let res: CodeSearchResponse = client.get(format!("{}{}", url_base, page)).send()?.json()?;
+        let res: RepoSearchResponse = client.get(format!("{}{}", url_base, page)).send()?.json()?;
 
         let total_pages = (std::cmp::min(res.total_count, 1000) + (PAGE_SIZE - 1)) / PAGE_SIZE;
 
@@ -81,11 +70,14 @@ fn get_projects(client: &reqwest::blocking::Client) -> Result<(), Box<dyn std::e
         }
 
         for item in res.items {
-            if !item.repository.fork {
-                repos
-                    .entry(item.repository.full_name.clone())
-                    .or_insert(item.repository);
+            if item.fork {
+                continue;
             }
+            if has_rayon(client, &item.full_name)? {
+                println!(">>> Found repo with Rayon");
+                repos.push(item);
+            }
+            std::thread::sleep(std::time::Duration::from_millis(500));
         }
 
         println!(
@@ -95,18 +87,36 @@ fn get_projects(client: &reqwest::blocking::Client) -> Result<(), Box<dyn std::e
             repos.len()
         );
 
-        let repos_vec: Vec<&Repository> = repos.values().collect();
-        write_file(&repos_vec)?;
+        write_file(&repos)?;
 
         if page >= total_pages {
             break;
         }
         page += 1;
 
-        std::thread::sleep(std::time::Duration::from_millis(2000));
+        std::thread::sleep(std::time::Duration::from_millis(1500));
     }
 
     Ok(())
+}
+
+fn has_rayon(
+    client: &reqwest::blocking::Client,
+    repo: &str,
+) -> Result<bool, Box<dyn std::error::Error>> {
+    let url_base = format!("{}/{}/contents/Cargo.toml", GITHUB_CONTENTS_ENDPOINT, repo);
+    let res = client.get(&url_base).send()?;
+
+    if res.status() == 404 {
+        return Ok(false);
+    }
+
+    let body: serde_json::Value = res.json()?;
+    let content = body["content"].as_str().unwrap_or("").replace('\n', "");
+    let decoded = STANDARD.decode(content)?;
+    let text = String::from_utf8_lossy(&decoded);
+
+    Ok(text.contains("rayon"))
 }
 
 fn write_file<T: Serialize>(crates: &[T]) -> Result<(), Box<dyn std::error::Error>> {

@@ -4,7 +4,7 @@
     "stargazers_count": 106604,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -15,7 +15,7 @@
     "stargazers_count": 84298,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -38,20 +38,12 @@
     "stargazers_count": 81450,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       },
       {
-        "pattern": ".par_extend",
-        "count": 4
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 5
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 1
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -69,11 +61,11 @@
     "stargazers_count": 61727,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 21
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 17
       },
       {
@@ -92,7 +84,7 @@
     "stargazers_count": 57104,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -115,7 +107,7 @@
     "stargazers_count": 57103,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
@@ -138,12 +130,8 @@
     "stargazers_count": 53321,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 14
-      },
-      {
-        "pattern": ".par_extend",
-        "count": 2
       },
       {
         "pattern": "rayon::spawn",
@@ -165,16 +153,12 @@
     "stargazers_count": 53263,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 8
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 3
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 1
       },
       {
         "pattern": "rayon::spawn",
@@ -196,11 +180,11 @@
     "stargazers_count": 47349,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -227,7 +211,7 @@
     "stargazers_count": 43705,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       }
     ],
@@ -238,15 +222,15 @@
     "stargazers_count": 39321,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 16
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 7
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -273,32 +257,16 @@
     "stargazers_count": 38364,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 203
       },
       {
-        "pattern": ".par_chunks",
-        "count": 1
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
-        "pattern": ".par_extend",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 48
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 6
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 2
       },
       {
         "pattern": "rayon::scope",
@@ -335,7 +303,7 @@
     "stargazers_count": 36624,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 9
       },
       {
@@ -362,7 +330,7 @@
     "stargazers_count": 35904,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 11
       }
     ],
@@ -373,15 +341,11 @@
     "stargazers_count": 33385,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 62
       },
       {
-        "pattern": ".par_chunks",
-        "count": 1
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -410,11 +374,11 @@
     "stargazers_count": 32012,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 20
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 5
       },
       {
@@ -429,7 +393,7 @@
     "stargazers_count": 30981,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 12
       },
       {
@@ -452,12 +416,8 @@
     "stargazers_count": 30294,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 18
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 1
       },
       {
         "pattern": "rayon::scope",
@@ -479,7 +439,7 @@
     "stargazers_count": 28940,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -490,7 +450,7 @@
     "stargazers_count": 28514,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -505,7 +465,7 @@
     "stargazers_count": 27782,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -516,7 +476,7 @@
     "stargazers_count": 27756,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -527,7 +487,7 @@
     "stargazers_count": 26993,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -538,7 +498,7 @@
     "stargazers_count": 25901,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       }
     ],
@@ -549,7 +509,7 @@
     "stargazers_count": 25217,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -564,11 +524,7 @@
     "stargazers_count": 24623,
     "patterns": [
       {
-        "pattern": ".par_iter",
-        "count": 1
-      },
-      {
-        "pattern": ".flat_map_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -602,7 +558,7 @@
     "stargazers_count": 23632,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       }
     ],
@@ -613,12 +569,8 @@
     "stargazers_count": 23197,
     "patterns": [
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 1
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -636,7 +588,7 @@
     "stargazers_count": 22472,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       }
     ],
@@ -647,15 +599,7 @@
     "stargazers_count": 21866,
     "patterns": [
       {
-        "pattern": ".par_chunks",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort_by",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -674,7 +618,7 @@
     "stargazers_count": 21612,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -685,7 +629,7 @@
     "stargazers_count": 21366,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -696,15 +640,15 @@
     "stargazers_count": 20956,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 36
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -731,7 +675,7 @@
     "stargazers_count": 20644,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 12
       },
       {
@@ -750,12 +694,8 @@
     "stargazers_count": 20155,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 14
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 28
       },
       {
         "pattern": "rayon::scope",
@@ -777,7 +717,7 @@
     "stargazers_count": 18028,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       }
     ],
@@ -788,16 +728,12 @@
     "stargazers_count": 17949,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 12
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
-      },
-      {
-        "pattern": ".par_extend",
-        "count": 3
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -815,7 +751,7 @@
     "stargazers_count": 17037,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       }
     ],
@@ -826,11 +762,11 @@
     "stargazers_count": 16993,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 9
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -849,15 +785,11 @@
     "stargazers_count": 16359,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 10
       },
       {
-        "pattern": ".par_sort",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort_by",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -882,7 +814,7 @@
     "stargazers_count": 15414,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 14
       },
       {
@@ -922,12 +854,8 @@
     "stargazers_count": 14985,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 39
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 46
       },
       {
         "pattern": "rayon::scope",
@@ -941,19 +869,11 @@
     "stargazers_count": 14863,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 154
       },
       {
-        "pattern": ".par_chunks",
-        "count": 12
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 3
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 4
       },
       {
@@ -972,11 +892,11 @@
     "stargazers_count": 14352,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
@@ -991,11 +911,11 @@
     "stargazers_count": 13388,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 61
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 7
       },
       {
@@ -1010,40 +930,16 @@
     "stargazers_count": 12942,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1004
       },
       {
-        "pattern": ".par_chunks",
-        "count": 36
-      },
-      {
-        "pattern": ".par_windows",
-        "count": 12
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 29
       },
       {
-        "pattern": ".par_extend",
-        "count": 59
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 14
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 68
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 18
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 4
       },
       {
         "pattern": "rayon::scope",
@@ -1081,11 +977,11 @@
     "stargazers_count": 12669,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 105
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 14
       },
       {
@@ -1110,7 +1006,7 @@
     "stargazers_count": 11644,
     "patterns": [
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -1129,11 +1025,11 @@
     "stargazers_count": 11185,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -1148,7 +1044,7 @@
     "stargazers_count": 10629,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 20
       },
       {
@@ -1175,16 +1071,12 @@
     "stargazers_count": 10317,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 20
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 2
       },
       {
         "pattern": "rayon::join",
@@ -1212,11 +1104,11 @@
     "stargazers_count": 9275,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -1235,11 +1127,11 @@
     "stargazers_count": 8984,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -1254,12 +1146,8 @@
     "stargazers_count": 8455,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 14
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 5
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -1277,7 +1165,7 @@
     "stargazers_count": 8356,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       }
     ],
@@ -1288,12 +1176,8 @@
     "stargazers_count": 8204,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 15
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 3
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -1311,7 +1195,7 @@
     "stargazers_count": 8023,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
@@ -1330,7 +1214,7 @@
     "stargazers_count": 7820,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -1341,7 +1225,7 @@
     "stargazers_count": 7672,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 26
       },
       {
@@ -1364,7 +1248,7 @@
     "stargazers_count": 7525,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -1383,11 +1267,11 @@
     "stargazers_count": 7519,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -1406,7 +1290,7 @@
     "stargazers_count": 7379,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -1417,7 +1301,7 @@
     "stargazers_count": 7323,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -1428,15 +1312,15 @@
     "stargazers_count": 7253,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 55
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 4
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -1463,7 +1347,7 @@
     "stargazers_count": 7220,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -1474,7 +1358,7 @@
     "stargazers_count": 7201,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       }
     ],
@@ -1485,7 +1369,7 @@
     "stargazers_count": 7147,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 8
       }
     ],
@@ -1496,12 +1380,8 @@
     "stargazers_count": 7093,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 62
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 4
       },
       {
         "pattern": "rayon::spawn",
@@ -1523,7 +1403,7 @@
     "stargazers_count": 6956,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -1549,15 +1429,11 @@
     "stargazers_count": 6444,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 132
       },
       {
-        "pattern": ".par_chunks",
-        "count": 3
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -1588,12 +1464,8 @@
     "stargazers_count": 6374,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 10
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -1611,7 +1483,7 @@
     "stargazers_count": 5812,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -1622,15 +1494,11 @@
     "stargazers_count": 5749,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 9
       },
       {
-        "pattern": ".par_chunks",
-        "count": 2
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -1651,12 +1519,7 @@
   {
     "full_name": "image-rs/image",
     "stargazers_count": 5729,
-    "patterns": [
-      {
-        "pattern": ".par_chunks",
-        "count": 2
-      }
-    ],
+    "patterns": [],
     "unsafe_in_rayon_files": 0
   },
   {
@@ -1664,7 +1527,7 @@
     "stargazers_count": 5724,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       },
       {
@@ -1683,24 +1546,16 @@
     "stargazers_count": 5559,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 45
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 10
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 5
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 5
       },
       {
         "pattern": "rayon::join",
@@ -1724,12 +1579,7 @@
   {
     "full_name": "massalabs/massa",
     "stargazers_count": 5535,
-    "patterns": [
-      {
-        "pattern": ".par_chunks",
-        "count": 1
-      }
-    ],
+    "patterns": [],
     "unsafe_in_rayon_files": 0
   },
   {
@@ -1743,11 +1593,11 @@
     "stargazers_count": 5469,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       }
     ],
@@ -1758,20 +1608,12 @@
     "stargazers_count": 5459,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 37
       },
       {
-        "pattern": ".par_chunks",
-        "count": 3
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 8
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 2
       },
       {
         "pattern": "rayon::join",
@@ -1785,7 +1627,7 @@
     "stargazers_count": 5446,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 14
       },
       {
@@ -1804,7 +1646,7 @@
     "stargazers_count": 5382,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
@@ -1823,12 +1665,8 @@
     "stargazers_count": 5335,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 2
       },
       {
         "pattern": "rayon::scope",
@@ -1850,7 +1688,7 @@
     "stargazers_count": 5227,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -1884,7 +1722,7 @@
     "stargazers_count": 5208,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -1895,7 +1733,7 @@
     "stargazers_count": 5125,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       }
     ],
@@ -1906,7 +1744,7 @@
     "stargazers_count": 5119,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       },
       {
@@ -1925,19 +1763,15 @@
     "stargazers_count": 5093,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 22
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
-        "pattern": ".par_sort",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort_by",
+        "pattern": ".par_sort()",
         "count": 1
       },
       {
@@ -1968,7 +1802,7 @@
     "stargazers_count": 4882,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 8
       },
       {
@@ -1991,7 +1825,7 @@
     "stargazers_count": 4837,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       }
     ],
@@ -2002,7 +1836,7 @@
     "stargazers_count": 4812,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -2013,11 +1847,11 @@
     "stargazers_count": 4742,
     "patterns": [
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 1
       }
     ],
@@ -2028,7 +1862,7 @@
     "stargazers_count": 4714,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -2039,7 +1873,7 @@
     "stargazers_count": 4688,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -2056,7 +1890,7 @@
     "stargazers_count": 4526,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
@@ -2079,7 +1913,7 @@
     "stargazers_count": 4479,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -2102,7 +1936,7 @@
     "stargazers_count": 4277,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 39
       },
       {
@@ -2121,7 +1955,7 @@
     "stargazers_count": 4243,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 4
       }
     ],
@@ -2132,7 +1966,7 @@
     "stargazers_count": 4186,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -2143,7 +1977,7 @@
     "stargazers_count": 4057,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
@@ -2162,16 +1996,8 @@
     "stargazers_count": 4027,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 34
-      },
-      {
-        "pattern": ".par_extend",
-        "count": 8
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 4
       }
     ],
     "unsafe_in_rayon_files": 12
@@ -2181,7 +2007,7 @@
     "stargazers_count": 4019,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -2192,7 +2018,7 @@
     "stargazers_count": 3977,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -2203,16 +2029,12 @@
     "stargazers_count": 3963,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 8
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 5
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 1
       }
     ],
     "unsafe_in_rayon_files": 0
@@ -2222,7 +2044,7 @@
     "stargazers_count": 3934,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 11
       },
       {
@@ -2249,23 +2071,15 @@
     "stargazers_count": 3886,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 131
       },
       {
-        "pattern": ".par_chunks",
-        "count": 18
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
-        "pattern": ".par_sort",
-        "count": 2
-      },
-      {
-        "pattern": ".par_sort_by",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -2292,12 +2106,8 @@
     "stargazers_count": 3878,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 8
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 1
       }
     ],
     "unsafe_in_rayon_files": 0
@@ -2307,7 +2117,7 @@
     "stargazers_count": 3724,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
@@ -2326,24 +2136,16 @@
     "stargazers_count": 3626,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 21
       },
       {
-        "pattern": ".par_chunks",
-        "count": 1
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 4
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 18
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 5
       },
       {
         "pattern": "rayon::ThreadPoolBuilder",
@@ -2361,7 +2163,7 @@
     "stargazers_count": 3597,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -2372,11 +2174,11 @@
     "stargazers_count": 3586,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 12
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 6
       }
     ],
@@ -2387,7 +2189,7 @@
     "stargazers_count": 3541,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -2402,28 +2204,16 @@
     "stargazers_count": 3539,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 20
       },
       {
-        "pattern": ".par_chunks",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_sort()",
         "count": 2
-      },
-      {
-        "pattern": ".par_sort",
-        "count": 2
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 1
       },
       {
         "pattern": "rayon::scope",
@@ -2453,7 +2243,7 @@
     "stargazers_count": 3537,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -2472,11 +2262,11 @@
     "stargazers_count": 3535,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -2495,7 +2285,7 @@
     "stargazers_count": 3525,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       }
     ],
@@ -2521,7 +2311,7 @@
     "stargazers_count": 3431,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 27
       },
       {
@@ -2536,19 +2326,11 @@
     "stargazers_count": 3343,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 129
       },
       {
-        "pattern": ".par_chunks",
-        "count": 29
-      },
-      {
-        "pattern": ".flat_map_iter",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -2567,7 +2349,7 @@
     "stargazers_count": 3315,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -2586,7 +2368,7 @@
     "stargazers_count": 3207,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
@@ -2601,11 +2383,11 @@
     "stargazers_count": 3151,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 11
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -2624,7 +2406,7 @@
     "stargazers_count": 3063,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 11
       },
       {
@@ -2643,7 +2425,7 @@
     "stargazers_count": 3052,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 24
       },
       {
@@ -2662,7 +2444,7 @@
     "stargazers_count": 3047,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
       },
       {
@@ -2691,12 +2473,8 @@
     "stargazers_count": 2912,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 104
-      },
-      {
-        "pattern": ".par_extend",
-        "count": 17
       }
     ],
     "unsafe_in_rayon_files": 293
@@ -2706,7 +2484,7 @@
     "stargazers_count": 2894,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 5
       }
     ],
@@ -2717,7 +2495,7 @@
     "stargazers_count": 2860,
     "patterns": [
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       }
     ],
@@ -2740,16 +2518,12 @@
     "stargazers_count": 2711,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 6
-      },
-      {
-        "pattern": ".par_extend",
-        "count": 2
       }
     ],
     "unsafe_in_rayon_files": 0
@@ -2759,11 +2533,11 @@
     "stargazers_count": 2674,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       }
     ],
@@ -2774,7 +2548,7 @@
     "stargazers_count": 2661,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 12
       }
     ],
@@ -2785,7 +2559,7 @@
     "stargazers_count": 2622,
     "patterns": [
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 3
       },
       {
@@ -2806,11 +2580,11 @@
     "stargazers_count": 2589,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 21
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 6
       },
       {
@@ -2837,7 +2611,7 @@
     "stargazers_count": 2566,
     "patterns": [
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
       }
     ],
@@ -2848,7 +2622,7 @@
     "stargazers_count": 2558,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -2871,11 +2645,11 @@
     "stargazers_count": 2527,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -2894,15 +2668,11 @@
     "stargazers_count": 2527,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
-        "pattern": ".par_chunks",
-        "count": 1
-      },
-      {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 2
       },
       {
@@ -2921,11 +2691,11 @@
     "stargazers_count": 2519,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 36
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       }
     ],
@@ -2936,11 +2706,11 @@
     "stargazers_count": 2484,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
@@ -2955,7 +2725,7 @@
     "stargazers_count": 2463,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -2978,15 +2748,11 @@
     "stargazers_count": 2447,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       },
       {
-        "pattern": ".par_sort",
-        "count": 2
-      },
-      {
-        "pattern": ".par_sort_by",
+        "pattern": ".par_sort()",
         "count": 2
       },
       {
@@ -3001,7 +2767,7 @@
     "stargazers_count": 2383,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       },
       {
@@ -3024,7 +2790,7 @@
     "stargazers_count": 2368,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       }
     ],
@@ -3035,11 +2801,11 @@
     "stargazers_count": 2366,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       }
     ],
@@ -3050,24 +2816,12 @@
     "stargazers_count": 2353,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 44
       },
       {
-        "pattern": ".par_extend",
-        "count": 8
-      },
-      {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 36
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 16
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 4
       }
     ],
     "unsafe_in_rayon_files": 0
@@ -3077,7 +2831,7 @@
     "stargazers_count": 2328,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 3
       }
     ],
@@ -3103,24 +2857,16 @@
     "stargazers_count": 2284,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 1
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 2
-      },
-      {
-        "pattern": ".par_sort_by",
-        "count": 1
-      },
-      {
-        "pattern": ".par_sort_by_key",
-        "count": 1
       },
       {
         "pattern": "rayon::scope",
@@ -3138,7 +2884,7 @@
     "stargazers_count": 2251,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
@@ -3157,11 +2903,11 @@
     "stargazers_count": 2246,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 1
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 5
       }
     ],
@@ -3172,7 +2918,7 @@
     "stargazers_count": 2223,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 6
       }
     ],
@@ -3189,12 +2935,8 @@
     "stargazers_count": 2161,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 7
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 1
       },
       {
         "pattern": "rayon::join",
@@ -3216,12 +2958,8 @@
     "stargazers_count": 2150,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 2
-      },
-      {
-        "pattern": ".par_chunks",
-        "count": 1
       }
     ],
     "unsafe_in_rayon_files": 0
@@ -3231,15 +2969,15 @@
     "stargazers_count": 2139,
     "patterns": [
       {
-        "pattern": ".par_iter",
+        "pattern": ".par_iter()",
         "count": 21
       },
       {
-        "pattern": ".par_bridge",
+        "pattern": ".par_bridge()",
         "count": 9
       },
       {
-        "pattern": ".par_sort",
+        "pattern": ".par_sort()",
         "count": 15
       },
       {

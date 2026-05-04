@@ -3,31 +3,77 @@ use std::process::Command;
 use serde::{Deserialize, Serialize};
 
 const INPUT_PATH: &str = "data/github_data.json";
-const OUTPUT_PATH: &str = "data/analysis.json";
+const OUTPUT_PATH: &str = "data/analysis_3.json";
 const REPOSITORY_DIR: &str = "data/repositories";
 
 const PATTERNS: &[&str] = &[
-    "par_iter",
-    "par_chunks",
-    "par_windows",
-    "par_bridge",
-    "par_extend",
-    "flat_map_iter",
-    "par_sort",
-    "par_sort_by",
-    "par_sort_by_key",
+    // 1
+    // "par_iter",
+    // "par_chunks",
+    // "par_windows",
+    // "par_bridge",
+    // "par_extend",
+    // "flat_map_iter",
+    // "par_sort",
+    // "par_sort_by",
+    // "par_sort_by_key",
+    // "rayon::iter::fold",
+    // "reduce",
+    // "unzip",
+    // "rayon::scope",
+    // "rayon::join",
+    // "rayon::spawn",
+    // "ThreadPoolBuilder",
+    // "ThreadPool",
+    // "impl ParallelIterator",
+    // "rayon::broadcast",
+    // "scope_fifo",
+    // 2
+    // ".par_iter()",
+    // ".par_chunks(",
+    // ".par_windows(",
+    // ".par_bridge()",
+    // ".par_extend(",
+    // ".flat_map_iter(",
+    // ".par_sort()",
+    // ".par_sort_by(",
+    // ".par_sort_by_key(",
+    // "rayon::iter::fold",
+    // "rayon::scope",
+    // "rayon::scope_fifo",
+    // "rayon::join",
+    // "rayon::spawn",
+    // "rayon::broadcast",
+    // "rayon::ThreadPoolBuilder",
+    // "rayon::ThreadPool",
+    // "impl ParallelIterator",
+    // 3
+    ".par_iter",
+    ".par_chunks",
+    ".par_windows",
+    ".par_bridge",
+    ".par_extend",
+    ".flat_map_iter",
+    ".par_sort",
+    ".par_sort_by",
+    ".par_sort_by_key",
     "rayon::iter::fold",
-    "reduce",
-    "unzip",
     "rayon::scope",
+    "rayon::scope_fifo",
     "rayon::join",
     "rayon::spawn",
-    "ThreadPoolBuilder",
-    "ThreadPool",
-    "impl ParallelIterator",
     "rayon::broadcast",
-    "scope_fifo",
+    "rayon::ThreadPoolBuilder",
+    "rayon::ThreadPool",
+    "impl ParallelIterator",
 ];
+
+#[derive(Debug, Serialize)]
+struct RunMetadata {
+    timestamp: String,
+    patterns: Vec<String>,
+    results: Vec<AnalysisResult>,
+}
 
 #[derive(Debug, Deserialize)]
 struct RepoItem {
@@ -36,11 +82,17 @@ struct RepoItem {
     stargazers_count: u64,
 }
 
-#[derive(Debug, Serialize)]
+#[derive(Debug, Serialize, Clone)]
+struct Pattern {
+    pattern: String,
+    count: usize,
+}
+
+#[derive(Debug, Serialize, Clone)]
 struct AnalysisResult {
     full_name: String,
     stargazers_count: u64,
-    patterns: Vec<(String, usize)>,
+    patterns: Vec<Pattern>,
     unsafe_in_rayon_files: usize,
 }
 
@@ -79,13 +131,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             unsafe_in_rayon_files,
         });
 
+        let metadata = RunMetadata {
+            timestamp: chrono::Utc::now().to_rfc3339(),
+            patterns: PATTERNS.iter().map(|p| p.to_string()).collect(),
+            results: res.clone(),
+        };
         std::fs::write(OUTPUT_PATH, serde_json::to_string_pretty(&res)?)?;
     }
 
     Ok(())
 }
 
-fn find_patterns(clone_path: &str) -> Vec<(String, usize)> {
+fn find_patterns(clone_path: &str) -> Vec<Pattern> {
     PATTERNS
         .iter()
         .filter_map(|&pattern| {
@@ -104,7 +161,10 @@ fn find_patterns(clone_path: &str) -> Vec<(String, usize)> {
                 .sum();
 
             if count > 0 {
-                Some((pattern.to_string(), count))
+                Some(Pattern {
+                    pattern: pattern.to_string(),
+                    count: count,
+                })
             } else {
                 None
             }

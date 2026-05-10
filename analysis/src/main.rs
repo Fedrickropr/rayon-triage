@@ -3,7 +3,7 @@ use std::process::Command;
 use serde::{Deserialize, Serialize};
 
 const INPUT_PATH: &str = "data/github_data.json";
-const OUTPUT_PATH: &str = "data/analysis_3.json";
+const OUTPUT_PATH: &str = "data/analysis_4.json";
 const REPOSITORY_DIR: &str = "data/repositories";
 
 const PATTERNS: &[&str] = &[
@@ -48,24 +48,44 @@ const PATTERNS: &[&str] = &[
     // "rayon::ThreadPool",
     // "impl ParallelIterator",
     // 3
-    ".par_iter",
-    ".par_chunks",
-    ".par_windows",
-    ".par_bridge",
-    ".par_extend",
-    ".flat_map_iter",
-    ".par_sort",
-    ".par_sort_by",
-    ".par_sort_by_key",
-    "rayon::iter::fold",
-    "rayon::scope",
-    "rayon::scope_fifo",
-    "rayon::join",
-    "rayon::spawn",
-    "rayon::broadcast",
-    "rayon::ThreadPoolBuilder",
-    "rayon::ThreadPool",
-    "impl ParallelIterator",
+    // ".par_iter",
+    // ".par_chunks",
+    // ".par_windows",
+    // ".par_bridge",
+    // ".par_extend",
+    // ".flat_map_iter",
+    // ".par_sort",
+    // ".par_sort_by",
+    // ".par_sort_by_key",
+    // "rayon::iter::fold",
+    // "rayon::scope",
+    // "rayon::scope_fifo",
+    // "rayon::join",
+    // "rayon::spawn",
+    // "rayon::broadcast",
+    // "rayon::ThreadPoolBuilder",
+    // "rayon::ThreadPool",
+    // "impl ParallelIterator",
+    // 4
+    r"\.par_iter",
+    r"\.into_par_iter",
+    r"\.par_chunks",
+    r"\.par_windows",
+    r"\.par_bridge",
+    r"\.par_extend",
+    r"\.flat_map_iter",
+    r"\.par_sort_by_key",
+    r"\.par_sort_by(?!_key)",
+    r"\.par_sort(?!_by)",
+    r"rayon::iter::fold",
+    r"rayon::scope(?!_fifo)",
+    r"rayon::scope_fifo",
+    r"rayon::spawn(?!_fifo)",
+    r"rayon::join",
+    r"rayon::broadcast",
+    r"rayon::ThreadPoolBuilder",
+    r"rayon::ThreadPool(?!Builder)",
+    r"impl ParallelIterator",
 ];
 
 #[derive(Debug, Serialize)]
